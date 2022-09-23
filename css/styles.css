@@ -1,0 +1,723 @@
+/*---DESAVILITAR CSS DEL NAVEGADOR PREDETERMINADO---*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*---TIPOGRAFIA--- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*ENCABEZADO*/
+header{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: #6DA0E2;
+    height: 200px;
+}
+
+/*---LOGO---*/
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+/* BUSCADOR */
+.buscar{
+  width: 24em;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 30px;
+  margin-left: 24em;
+  margin-top: 40px;
+}
+
+/* ---MENU--- */
+.btn {
+    position: absolute;
+    font-size: 20px;
+    left: 47.50em;
+    top: 59px;
+    color: black;
+}
+.fa-cart-shopping{
+    position: absolute;
+    font-size: 35px;
+    top:45px;
+    left: 42em;
+    color: white;
+}
+.fa-cart-shopping:hover{
+  color: #FFA64D;
+}
+.bi-person-fill{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top:25px;
+    left: 27.50em;
+}
+.usuario-inicio{
+    position: absolute;
+    left: 84.50em;
+    top: 85px;
+    color: white;
+    font-size: 1rem;
+}
+.usuario-registrarse{
+    position: absolute;
+    left: 85.50em;
+    top: 110px;
+    color: white;
+    font-size: 1rem;
+}
+
+header h1{
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+}
+header nav{
+   display: flex;
+}
+header ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 250px;
+}
+header li{
+   list-style: none;
+   margin-right: 80px;
+}
+header a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+header a:hover{
+    color: rgba(0, 0, 0, 0.652);
+}
+
+/*---PORTADA--- */
+.fondo-portada{
+    background-color:#EEBA49;
+}
+.portada{
+    width: 145vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*---INFORMACION PRINCIPAL---*/
+.barra{
+    background-color: #6DA0E2;
+    height: 150px;
+}
+.barra__info{
+    display: inline-block;
+    padding-left: 22em;
+}
+.barra h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #F28C30;
+    font-size: 2rem;
+}
+.barra p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 1.3rem;
+}
+.bag-check{
+    width: 70px;
+    position: absolute;
+    left: 15em;
+    top: 44em;
+    color: white;
+}
+.bi-currency-dollar{
+    font-size: 90px;
+    position: absolute;
+    left: 9.85em;
+    color: white;
+}
+
+/*---MASCOTAS/PERFILES---*/
+.pets{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.imagen{
+    width: 160px;
+    height: 160px;
+    border-radius: 200px;
+    transition: all 350ms; /*Velocidad*/
+    position: relative;
+  }
+.imagen:hover{
+    transform: scale(1.2); /*Tamaño de imagen*/
+ }
+ .pets__perfiles{
+   margin-left: 30px;
+   margin-right: 30px;
+}
+.pets__perfiles h3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.91);
+}
+/* PRODUCTOS DESTACADOS */
+.p-destacado{
+  background-color: #EEBA49;
+  height: 60vh;
+}
+.p-destacado h4{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: black;
+}
+.tarjetas{
+  display: flex;
+  margin-left:80px;
+}
+.tarjeta {
+  background-color:white;
+  width:23vh;
+  height:47vh;
+  margin-left: 20px;
+}
+.tarjeta--dos {
+  background-color:white;
+  width:23vh;
+  height:47vh;
+  margin-left:20px;
+}
+.tarjeta__imagen{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tarjeta h5{
+  font-family: 'Inter', sans-serif;
+  font-weight:300;
+  color: #989A9C;
+  font-size: 1rem;
+}
+.tarjeta--dos h5{
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  color: #989A9C;
+  font-size: 1rem;
+}
+
+.tarjeta, .product{
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+  .tarjeta--dos, .product{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
+
+  .p-info{
+    text-align: center;
+    font-size: 0.9rem;
+    color: black;
+    background-color:  #39BEDB;
+    margin-left: 120px;
+    padding: 3px;
+    position: relative;
+    right: 60px;
+  }
+  .p-info2{
+    text-align: center;
+    font-size: 0.9rem;
+    color: black;
+    background-color:  #39BEDB;
+    margin-left: 100px;
+    padding: 3px;
+    position: relative;
+    right: 50px;
+  }
+  .p-info-gris{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.9rem;
+    position: relative;
+    right: 117px;
+    bottom: 43px;
+    color: white;
+    background-color: #989A9C;
+    margin-left: 130px;
+    padding: 3px;
+  }
+  .p-info-celeste{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.9rem;
+    position: relative;
+    right: 63px;
+    color: white;
+    background-color:  #39BEDB;
+    margin-left: 130px;
+    padding: 3px
+  }
+  .p-info-rojo{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.9rem;
+    position: relative;
+    bottom:87px ;
+    right: 10px;
+    color: white;
+    background-color:  #E26D6D;
+    margin-left: 130px;
+    padding: 3px;
+  }
+  .p-info-gris-dos{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.9rem;
+    position: relative;
+    top: 17px;
+    right: 120px;
+    color: white;
+    background-color:  #989A9C;
+    margin-left: 120px;
+    padding: 3px
+  }
+
+  .tarjeta .precio{
+    font-size: 1.5rem;
+    text-align: center;
+    top: 30px;
+  }
+  .precio-transpor{
+    position:relative;
+    font-size: 1.5rem;
+    text-align: center;
+    bottom: 86px;
+  }
+  .tarjeta a{
+    color: white;
+    background-color:#00DD23;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 0.8rem;
+    margin: 7em;
+  }
+  .tarjeta--dos a{
+    color: white;
+    background-color:#00DD23;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 87px;
+    left: 90px;
+  }
+
+  /*---CATEGORÍA---*/
+  .categoria-title h6{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 50px;
+  }
+  .categorias{
+   padding-left: 300px;
+   padding-right: 300px;
+  }
+  .categoria__resultado{
+    display: inline-block;
+    padding: 40px;
+    margin-top: 70px;
+  }
+ .categoria__resultado h6{
+  font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #EEBA49;
+    padding: 10px;
+    color: white;
+ }
+  .categoria__resultado img{
+    width: 400px;
+    height: 250px;
+  }
+  .categorias--dos{
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  .categoria--dos__resultado{
+    display: inline-block;
+    padding: 40px;
+  }
+  .categorias--dos h6{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #EEBA49;
+    padding: 10px;
+    color: white;
+  }
+  .categoria--dos__resultado img{
+    width: 400px;
+    height: 250px;
+  }
+
+  /* PRODUCTOS */
+  .title-productos{
+    display: flex;
+    flex-direction: row;
+  }
+  .title-productos h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-top: 100px;
+    font-size: 3rem;
+    color: black;
+    margin-left: 6em;
+  }
+  .title-productos img{
+   margin-left:50px ;
+  }
+  .contenedor{
+    display: grid;
+    grid-template-columns: 14vw auto;
+    grid-template-rows: 80em  auto;
+   }
+   /* FILTRO */
+  .filtro{
+    background-color: #6DA0E2;
+  }
+  .filtro strong{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    margin-left: 30px;
+    color: black;
+    font-size: 1.2rem;
+  }
+  .filtro ul{
+    list-style: none;
+  }
+  .filtro a{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #1E1E1E;
+  }
+  .filtro hr{
+   color: white;
+   width: 150px;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+  }
+  .marcas input{
+    display:inline-block;
+    margin-left: 30px;
+  }
+  .marcas span{
+    color: white;
+  }
+  .productos{
+    background-color:#EEAB49;
+  }
+  .tarjetas-pro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  /* BARRA NUMERICA */
+  .paginacion ul{
+    list-style: none;
+    text-align: center;
+  }
+  .paginacion li{
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .paginacion a{
+    display: block;
+    margin-top: 20px;
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    background-color: #EEAB49;
+    color: black;
+  }
+  .paginacion a:hover{
+    background-color:#6DA0E2;
+    color: white;
+  }
+  .paginacion li .active{
+    background-color: #6DA0E2;
+    color: white;
+  }
+
+  /* PREGUNTAS */
+  .accordion{
+    width: 50em;
+    background-color: #EEBA49;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+button{
+  height: 40px;
+}
+ button h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    color: black;
+  }
+  .accordion-body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 1.rem;
+  }
+ .tarjetas-bancos{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+.retiros-envios{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: black;
+  font-size: 1.rem;
+  text-decoration: solid 3px red;
+}
+.pregunta-perro{
+  position:absolute;
+  left: 60px;
+}
+.pregunta-gato{
+  position: absolute;
+  left: 77em;
+  top: 37.50em;
+}
+
+/* NOSOTROS */
+
+.nosotros__title h2{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 80px ;
+  padding-bottom: 80px;
+  font-size: 2rem;
+}
+.nosotros img{
+  width: 500px;
+  margin-left: 240px;
+  float: left;
+  margin-right: 20px;
+}
+.nosotros p{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+/* CONTACTO */
+form{
+  width: 600px;
+  margin-left: 55em;
+  margin-top: 5em;
+  background-color: #EEBA49;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+textarea{
+  width: 550px; 
+  height: 150px;
+  resize: none; 
+}
+.botones button{
+  border-radius:5px;
+  border: white 1px solid;
+  width: 80px;
+  height: 30px;
+  background-color: white;
+  color: black;
+}
+.botones button:hover{
+  border: #6da0e2de 1px solid;
+  width: 80px;
+  height: 30px;
+  background-color: #6DA0E2;
+  color: white;
+}
+.contacto-img{
+  position: absolute;
+  top: 20em;
+}
+.contato-img-2{
+  margin-left: 70em;
+  position: absolute;
+  top:59.25em;
+}
+.mapa{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* PIE DE PAGINA */
+footer{
+  background-color: #6DA0E2;
+  height: 52vh;
+}
+ .pie-pagina__title h2{
+  font-size: 1.5rem;
+  color: white;
+  display: inline-block;
+  padding-left: 17.50em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+.imagen-logo{
+  width: 190px;
+  float: left;
+}
+
+.info{
+  font-size: 1.2rem;
+  color: black;
+  margin-left: 22em;font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+.numero{
+  font-size: 1.2rem;
+  color: black;
+  margin-left: 22em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+.correo{
+  font-size: 1.2rem;
+  color: black;
+  margin-left: 22em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+.fa-linkedin{
+  font-size: 30px;
+  line-height: 20px;
+  color: #0077B7;
+  background-color: white;
+  position: relative;
+  position: relative;
+  top: 40px;
+  right:160px;
+}
+.fa-square-facebook{
+  font-size: 30px;
+ width: 25px;
+ height: 23px;
+  line-height: 23px;
+  color: #0077B7;
+  background-color: white;
+  position: relative;
+  top: 40px;
+  right: 90px;
+}
+.instagram{
+  position: relative;
+  top: 34px;
+  right: 80px;
+}
+.plitica-derechos{
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+.pie-pagina h3{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: white;
+  text-align: center;
+  margin-right: 51em;
+} 
+.plitica-derechos a{
+  text-decoration: none;
+  color: white;
+}
+.fa-whatsapp{
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  bottom: 50px;
+  right: 50px;
+  background-color: #00DD23;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 50px;
+  z-index: 100;
+}
+.fa-whatsapp:hover{
+  text-decoration: none;
+  color: #00DD23;
+  background-color: white;
+}
+.bi-arrow-up-circle-fill{
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  line-height: 30px;
+  bottom: 50px;
+  left: 50px;
+  background-color: white;
+  color: #EEBA49;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 70px;
+  z-index: 100;
+}
+
+/* PROXIMAMENTE */
+
+.construccion img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
