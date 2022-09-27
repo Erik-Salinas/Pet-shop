@@ -13,6 +13,7 @@ header{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     background-color: #6DA0E2;
+    width: 100%;
     height: 200px;
 }
 
@@ -23,6 +24,19 @@ header{
 }
 
 /* BUSCADOR */
+/* .buscar{
+   width: 24em;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 30px;
+  margin-left: 24em;
+  margin-top: 40px; 
+  
+} */
 .buscar{
   width: 24em;
   height: 40px;
@@ -32,11 +46,24 @@ header{
   outline: none;
   border: 1px solid silver;
   border-radius: 30px;
-  margin-left: 24em;
-  margin-top: 40px;
+  position: absolute;
+  top: 55px;
+  left: 32em;
 }
+::placeholder{
+  color:black;
+} 
 
 /* ---MENU--- */
+.menu {
+  color: white;
+  font-size: 25px;
+  display:none;
+  margin-top: 20px;
+}
+#check {
+  display: none;
+ }
 .btn {
     position: absolute;
     font-size: 20px;
@@ -88,7 +115,8 @@ header ul{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 250px;
+  margin-top:150px ;
+  margin-left: 190px;
 }
 header li{
    list-style: none;
@@ -102,6 +130,15 @@ header a{
 }
 header a:hover{
     color: rgba(0, 0, 0, 0.652);
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  display: none;
+}
+#check{
+  display: none;
 }
 
 /*---PORTADA--- */
@@ -616,7 +653,8 @@ footer{
 .info{
   font-size: 1.2rem;
   color: black;
-  margin-left: 22em;font-family: 'Inter', sans-serif;
+  margin-left: 22em;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
 .numero{
@@ -712,12 +750,43 @@ footer{
 
 /* PROXIMAMENTE */
 
-.construccion img{
+ .construccion img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 700px;
+} 
+
+@media(max-width:500px){
+  
+  header {
+    background-color:#6DA0E2;
+    height: 11vh;
+  }
+  .menu {
+    position: relative;
+    right: 40px;
+    color: white;
+    font-size: 25px;
+    display: block;
+    margin-right: -80px;
+    
+  }
+  .logo img {
+    width: 50px;
+    margin-left: 20px;
+  }
+  header h1{
+    font-size: 0.7rem;
+    text-align: center;
+    position: absolute;
+    top:65px;
+    left:39px;
+    color: white;
+  }
+ 
+  #check {
+    display: none;
+   }
 }
-
-
-
 
