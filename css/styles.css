@@ -621,7 +621,6 @@ textarea{
 /* PIE DE PAGINA */
 footer{
   background-color: #6DA0E2;
-  height: 52vh;
 }
  .pie-pagina__title h2{
   font-size: 1.5rem;
@@ -744,7 +743,7 @@ footer{
 } 
 
 /* CELULAR */
-@media(max-width:720px){
+@media(max-width:500px){
   
   header {
     background-color:#6DA0E2;
@@ -831,12 +830,88 @@ nav ul li a:hover{
     color: black;
     border: none;
   } 
+
+  .fa-cart-shopping{
+    position: relative;
+    font-size: 30px;
+    left: 30px;
+    top: 20px;
+    color: white;
+    border: none;
+  }
+  .fa-cart-shopping:hover{
+  color: #FFA64D;
+  }
+  .bi-person-fill{
+    position: relative;
+    font-size: 40px;
+    left: -20px;
+    top: -30px;
+    color: white;
+    border: none;
+  }
+.bi-person-fill:hover{
+  color: grey;
+}
+.usuario-inicio{
+  display: none;
+}
+.usuario-registrarse{
+  display: none;
+}
    /* PROXIMAMENTE */
    .construccion img{
     width:100%;
-    display: block;
   } 
  
+  /* FOOTER */
+  footer{
+    height: 36vh;
+  }
+  /* .imagen-logo{
+    display:none ;
+  }
+  .pie-pagina h3{
+    display: none;
+  } 
+  .pie-pagina__title h2{
+    font-size: 1rem;
+    padding-left: 1em;
+    display: flex;
+    margin: 200px 0;
+    background-color: #00DD23;
+    position: relative;
+    bottom: 200px;
+    right: 60px;
+  }
+  .info{
+    font-size: 0.8rem;
+    color: black;
+    margin-left: -40px;
+   position: relative;
+   bottom: 48em;
+
+  }
+  .numero{
+    font-size: 0.8rem;
+    color: black;
+    position: relative;
+    right: 320px;
+    bottom: 48em;
+    display: flex;
+    align-items: center;
+
+  }
+  .correo{
+    
+    font-size: 0.8rem;
+    color: black;
+    position: relative;
+    right: 320px;
+    bottom: 48em;
+    display: flex;
+    align-items: center;
+  } */
 }
 /* CELULAR */
 
