@@ -805,7 +805,7 @@ nav ul li a:hover{
    #check:checked ~ ul{
     left:0;
   }
-  /* .buscar{
+  .buscar{
     width: 70%;
     height: 30px;
     padding: 0 20px;
@@ -815,20 +815,22 @@ nav ul li a:hover{
     border: 1px solid silver;
     border-radius: 30px;
     position: relative;
-    left: 10px;
-    top:20px;
+    right: 15px;
+    top:10px;
     display: block;
   }
   ::placeholder{
     font-size: 0.8rem;
-  }  */
-  /* .btn {
-    position: absolute;
-    font-size: 20px;
-    left: 27px;
-    top: 59px;
+  }  
+
+   .btn {
+    position: relative;
+    font-size: 15px;
+    left: -60px;
+    top: 10px;
     color: black;
-  }  */
+    background-color: #00DD23;
+  }  
    /* PROXIMAMENTE */
    .construccion img{
     width:100%;
