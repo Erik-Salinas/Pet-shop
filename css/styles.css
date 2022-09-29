@@ -743,6 +743,7 @@ footer{
   width: 700px;
 } 
 
+/* CELULAR */
 @media(max-width:720px){
   
   header {
@@ -822,7 +823,7 @@ nav ul li a:hover{
     font-size: 0.8rem;
   }  
 
-  .btn {
+   .btn {
     position: relative;
     font-size: 15px;
     left: -55px;
@@ -837,4 +838,6 @@ nav ul li a:hover{
   } 
  
 }
+/* CELULAR */
+
 
