@@ -15,7 +15,6 @@ header{
     background-color: #6DA0E2;
     width: 100%;
 }
-
 /*---LOGO---*/
 .logo{
     display: flex;
@@ -743,8 +742,7 @@ footer{
 } 
 
 /* CELULAR */
-@media(max-width:500px){
-  
+@media(max-width:720px){
   header {
     background-color:#6DA0E2;
     height:12vh;
@@ -830,29 +828,19 @@ nav ul li a:hover{
     color: black;
     border: none;
   } 
-
   .fa-cart-shopping{
-    position: relative;
-    font-size: 30px;
-    left: 30px;
-    top: 20px;
-    color: white;
-    border: none;
+   display: none;
   }
   .fa-cart-shopping:hover{
   color: #FFA64D;
   }
   .bi-person-fill{
-    position: relative;
-    font-size: 40px;
-    left: -20px;
-    top: -30px;
-    color: white;
-    border: none;
+    display: none;
   }
-.bi-person-fill:hover{
-  color: grey;
-}
+  .bi-person-fill:hover{
+    color: black;
+  }
+  
 .usuario-inicio{
   display: none;
 }
@@ -865,9 +853,7 @@ nav ul li a:hover{
   } 
  
   /* FOOTER */
-  footer{
-    height: 36vh;
-  }
+  
   /* .imagen-logo{
     display:none ;
   }
@@ -912,6 +898,23 @@ nav ul li a:hover{
     display: flex;
     align-items: center;
   } */
+  .fa-whatsapp{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    bottom: 50px;
+    right: 10px;
+    font-size: 30px;
+  }
+  .bi-arrow-up-circle-fill{
+ 
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    bottom: 50px;
+    left: 10px;
+    font-size: 40px;
+  }
 }
 /* CELULAR */
 
