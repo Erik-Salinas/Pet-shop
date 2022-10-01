@@ -10,6 +10,7 @@
 
 /*ENCABEZADO*/
 
+/* MENU */
 nav {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -886,7 +887,7 @@ textarea {
     display: block;
     position: absolute;
     top: 20px;
-    right: 80px;
+    left: 40px;
     cursor: pointer;
 
   }
