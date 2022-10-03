@@ -810,7 +810,7 @@ textarea {
 }
 
 /* CELULAR */
-@media screen and (max-width:800px) {
+@media screen and (max-width:720px) {
 
   /*---HEADER---*/
     /*---MENU---*/
@@ -873,7 +873,7 @@ textarea {
   /*---NOSOTROS---*/
  
   .nosotros img {
-    width: 50%;
+    width: 100%;
     float: none;
    display: block;
    margin-left: auto;
