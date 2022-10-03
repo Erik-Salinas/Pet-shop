@@ -16,30 +16,42 @@
 
 <body id="menu">
   <header class="container-fluid">
-    <section class="row">
-        <input type="checkbox" id="check">
-        <nav>
-            <div class="logo ms-5"><a href="../index.html">
-                    <img src="../imagenes/logo.png" alt="logo de mundo pet salinas">
-                    <h1>Mundo pet <br> salinas</h1>
-                </a></div>
-            <div class="search_box">
-                <input type="text" placeholder="Buscar..." class="buscar" autocomplete="off">
-                <i class="fa-solid fa-magnifying-glass btn"></i>
-            </div>
-            <ol>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="preguntas.html">Preguntas</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ol>
-            <label for="check" class="bar">
-                <span class="fa fa-bars" id="bars"></span>
-                <span class="fa fa-times" id="times"></span>
-            </label>
-        </nav>
-    </section>
+    <nav class="navbar navbar-expand-lg">
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+          <a class="logo--pet" href="../index.html"><img src="../imagenes/logo.png" alt="logo de mundo pet salinas" class="me-3"><h1 class="me-3">Mundo pet <br> salinas</h1></a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li>
+                <a  aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li >
+                <a class=" dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"> Domesticos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Exoticos</a></li>
+                </ul>
+              </li>
+              <li >
+                <a  href="preguntas.html">Preguntas</a>
+              </li>
+              <li >
+                <a  href="nosotros.html">Nosotros</a>
+              </li>
+              <li >
+                <a  href="contacto.html">Contacto</a>
+              </li>
+              <form class="d-flex" >
+               <input  type="search" placeholder="Buscar ..." autocomplete="off">
+               <i class="fa-solid fa-magnifying-glass btn"></i>
+             </form>
+            </ul>
+          </div>
+      </nav>
 </header>
         <main>
           <section>

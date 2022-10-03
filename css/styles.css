@@ -11,113 +11,92 @@
 /*ENCABEZADO*/
 
 /* MENU */
-nav {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  display: flex;
-  width: 100%;
-  background-color: #6DA0E2;
-  position: relative;
-  justify-content: space-between;
-  text-align: center;
-  padding: 15px 30px;
+header {
+    background-color: #6DA0E2;
+    width: 100%;
 }
 
-nav .logo img {
-  width: 80px;
-  position: relative;
-  top: 20px;
+.logo--pet {
+    text-decoration: none;
+    margin-left: 20px;
 }
 
-nav h1 {
-  font-size: 1rem;
-  color: white;
-  position: relative;
-  top: 20px;
+.logo--pet {
+    color: white;
 }
 
-nav a {
-  text-decoration: none;
+.logo--pet img {
+    width: 80px;
 }
 
-nav ol {
-  display: flex;
-  list-style: none;
-  margin: auto 0;
+.logo--pet h1 {
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
 }
 
-nav ol li {
-  margin: 0 2px;
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 40px;
 }
 
-nav ol li a {
-  color: white;
-  font-size: 1.2rem;
-  text-decoration: none;
-  text-transform: capitalize;
-  letter-spacing: 1px;
-  padding: 5px 30px;
-  /*Separacion*/
+nav li a:hover {
+    color: white;
 }
 
-nav ol li a:hover {
-  color: white;
+nav ul li {
+    position: relative;
+    left: 20%;
+    top: 40px;
 }
 
-/*---BUSCADOR---*/
-nav .search_box {
-  display: flex;
-  margin: auto 0;
-  height: 35px;
-  line-height: 35px;
+/* ---MENU DESPLEGABLE--- */
+.dropdown-menu {
+    background-color: #6DA0E2;
 }
 
-::placeholder {
-  color: black;
+.dropdown-menu a {
+    color: white;
+    position: relative;
+    right: 83px;
+    bottom: 40px;
 }
 
-nav .search_box input {
-  border: none;
-  outline: none;
-  border-radius: 50px;
-  background-color: white;
-  height: 100%;
-  padding: 0 10px;
-  font-size: 1rem;
-  width: 350px;
+.dropdown-divider {
+    background-color: white;
+    position: relative;
+    right: 43px;
+    bottom: 40px;
+    border-width: 2px;
 }
 
-::placeholder {
-  color: black;
+.dropdown-menu a:hover {
+    background-color: #eeba49e0;
+    color: white;
+}
+/* BUSCADOR */
+nav form input{
+    border-radius: 40px;
+    height: 35px;
+    border: white;
+    padding-right: 220px;
+    padding-left: 10px;
+    position: relative;
+    right: 24em;
+    bottom: 15px;   
+}
+.fa-magnifying-glass{
+    color: black;
+    position: relative;
+    right: 27em;
+    bottom: 10px;
+    border: white;
 }
 
-nav .search_box .btn {
-  position: relative;
-  font-size: 20px;
-  top: 2px;
-  right: 50px;
-  color: black;
-  border: white;
-}
-
-nav .bar {
-  position: relative;
-  margin: auto;
-  display: none;
-}
-
-nav .bar span {
-  position: absolute;
-  color: #fff;
-  font-size: 35px;
-  /*Mover boton*/
-
-}
-
-input[type="checkbox"] {
-  -webkit-appearance: none;
-  display: none;
-  /*Ocultar el checkbox*/
+::placeholder{
+    color: black;
 }
 
 /*---PORTADA--- */
@@ -634,7 +613,7 @@ button h3 {
 }
 
 /* CONTACTO */
-form {
+.contacto {
   width: 600px;
   margin-left: 55em;
   margin-top: 5em;
