@@ -583,7 +583,7 @@ button h3 {
 .pregunta-gato {
   position: absolute;
   left: 77em;
-  top: 35em;
+  top: 34em;
 }
 
 /* NOSOTROS */
@@ -653,7 +653,7 @@ textarea {
 .contato-img-2 {
   margin-left: 70em;
   position: absolute;
-  top: 56.41em;
+  top: 55.30em;
 }
 
 .mapa {
@@ -760,7 +760,7 @@ textarea {
   color: #fff;
 }
 
-.pie-pagina .politica-derechos p {
+.pie-pagina .politica-derechos p { 
   font-size: 0.7rem;
 }
 
@@ -813,84 +813,82 @@ textarea {
 @media screen and (max-width:720px) {
 
   /*---HEADER---*/
-  nav {
-    display: block;
-    padding: 0;
+    /*---MENU---*/
+    nav ul {
+      background-color: #EEBA49;
+      border-radius: 5px;
+      padding-bottom: 20px;
+  }
+  nav ul li {
+      text-align: center;
+      position: relative;
+      left: 20px;
+      top: 5px;
+      margin: 10px 0px;
+  }
+  /*---BUSCADOR---*/
+  nav form input{
+      position: relative;
+      left: 1em;
+      top: 10px;   
+      padding-right: 40px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .fa-magnifying-glass{
+      display: none;
+  }
+  .dropdown-menu {
+      background-color: #6DA0E2;
+      margin-right: 150px;
+      margin-left: 150px;
+      
   }
 
-  nav .logo {
-    display: inline-block;
-    padding-right: 40px;
-    padding-bottom: 20px;
+  .dropdown-menu a {
+      font-size: 1rem;
+      position: relative;
+      right: 60px;
+      bottom: 2px;
   }
 
-  nav .search_box {
-    width: 100%;
-    display: inline-flex;
-    justify-content: center;
-    margin-bottom: 15px;
+  .dropdown-divider { 
+      position: relative;
+      right: 20px;
+      bottom: 5px;
   }
 
-  nav .search_box input {
-    width: 80%;
-    margin-left: 50px;
+  .navbar-toggler {
+      background-color: white;
+      margin-bottom: 60px;
+      font-size: 15px;
   }
 
-  nav ol {
-
-    display: flex;
-    flex-direction: column;
-    background-color: #EEBA49;
-    height: 0px;
-    border-radius: 10px;
-    visibility: hidden;
-    /*Invisible*/
-    transition: 0.3s;
+  .logo--pet {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
   }
-
-  nav ol a {
+  /*---NOSOTROS---*/
+ 
+  .nosotros img {
+    width: 50%;
+    float: none;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  }
+  
+  .nosotros p {
     text-align: center;
-    text-transform: capitalize;
-
-  }
-
-  nav ol li a {
-    color: black;
-    font-size: 1.4rem;
-    padding: 15px;
-    display: block;
-  }
-
-  nav .bar {
-
-    display: block;
-    position: absolute;
-    top: 20px;
-    left: 40px;
-    cursor: pointer;
-
-  }
-
-  nav .bar #times {
-    display: none;
-  }
-
-  #check:checked~nav .bar #times {
-    display: block;
-
-  }
-
-  #check:checked~nav .bar #bars {
-    display: none;
-  }
-
-  #check:checked~nav ol {
-    visibility: visible;
-    height: 310px;
-    margin-bottom: 15px;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-top: 20px;
   }
 
   /*---FOOTER---*/
+ 
   .pie-pagina .pie-pagina__info {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
