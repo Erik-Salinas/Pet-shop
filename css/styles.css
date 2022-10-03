@@ -897,15 +897,25 @@ textarea {
 }
 .contacto label{
   font-size: 0.7rem;
+  position: relative;
+  bottom: 17px;
+}
+.contacto input{
+  margin-top: -20px;
+}
+ .novedades{
+  position: relative;
+  top:0px;
 }
 .contacto button{
   font-size: 0.7rem;
 }
 textarea {
-  
   height: 90px;
   resize: none;
+  margin-top: -20px;
 }
+
 ::placeholder{
   font-size: 0.7rem;
 }
