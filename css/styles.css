@@ -840,12 +840,13 @@ textarea {
   .fa-magnifying-glass{
       display: none;
   }
+  
   .dropdown-menu {
-      background-color: #6DA0E2;
-      margin-right: 150px;
-      margin-left: 150px;
-      
-  }
+    background-color: #6DA0E2;
+    width: 30px;
+    height: 120px;
+    margin-left: 200px;
+}
 
   .dropdown-menu a {
       font-size: 1rem;
