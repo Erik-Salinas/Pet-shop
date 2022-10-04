@@ -819,6 +819,7 @@ textarea {
       background-color: #EEBA49;
       border-radius: 5px;
       padding-bottom: 20px;
+      padding-right:10px;
   }
   nav ul li {
       text-align: center;
@@ -840,12 +841,14 @@ textarea {
   .fa-magnifying-glass{
       display: none;
   }
-  .dropdown-menu {
+ .dropdown-menu {
       background-color: #6DA0E2;
-      width: 30px;
-      height: 120px;
-      margin-left: 200px;
+      margin-left: 60px;
+      margin-right: 80px;
   }
+ .dropdown-item{
+  position: relative;
+ }
   .dropdown-menu a {
       font-size: 1rem;
       position: relative;
@@ -867,7 +870,6 @@ textarea {
       margin-bottom: 60px;
       font-size: 15px;
   }
-
   .logo--pet {
       display: block;
       margin-left: auto;
