@@ -854,7 +854,10 @@ textarea {
       right: 60px;
       bottom: 2px;
   }
-
+  .dropdown-menu a:hover {
+    background-color: #6DA0E2;
+    color: white;}
+    
   .dropdown-divider { 
       position: relative;
       right: 20px;
