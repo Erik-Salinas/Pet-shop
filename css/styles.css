@@ -838,25 +838,27 @@ textarea {
       margin-right: auto;
   }
   .fa-magnifying-glass{
-      display: none;
-  }
-  
-  .dropdown-menu {
-    background-color: #6DA0E2;
-    width: 30px;
-    height: 120px;
-    margin-left: 200px;
+    display: none;
 }
-
-  .dropdown-menu a {
-      font-size: 1rem;
-      position: relative;
-      right: 60px;
-      bottom: 2px;
-  }
-  .dropdown-menu a:hover {
+.dropdown-menu {
     background-color: #6DA0E2;
-    color: white;}
+    margin-left: 60px;
+    margin-right: 80px;
+}
+.dropdown-item{
+position: relative;
+}
+.dropdown-menu a {
+    font-size: 1rem;
+    position: relative;
+    right: 60px;
+    bottom: 2px;
+}
+.dropdown-menu a:hover {
+  background-color: #6DA0E2;
+  color: white;
+}
+ 
     
   .dropdown-divider { 
       position: relative;
