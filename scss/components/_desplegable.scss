@@ -1,0 +1,27 @@
+//ARCHIVOS DE DESPLEGABLES
+
+
+/* ---MENU DESPLEGABLE--- */
+.dropdown-menu {
+    background-color: #6DA0E2;
+
+    & a {
+        color: white;
+        position: relative;
+        right: 83px;
+        bottom: 40px;
+    }
+
+    & a:hover {
+        background-color: #eeba49e0;
+        color: white;
+    }
+}
+
+.dropdown-divider {
+    background-color: white;
+    position: relative;
+    right: 43px;
+    bottom: 40px;
+    border-width: 2px;
+}

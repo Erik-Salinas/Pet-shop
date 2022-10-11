@@ -1,0 +1,68 @@
+//MENU
+header {
+    background-color: #6DA0E2;
+    width: 100%;
+}
+
+.logo--pet {
+    margin-left: 20px;
+    color: white;
+
+    & img{
+        width: 80px;
+    }
+
+    & h1{
+        color: white;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
+.navbar{
+    li{
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin: 0 40px;  
+        }
+    }
+    & li a:hover{
+        color: white;
+    }
+    & ul li{
+        position: relative;
+        left: 20%;
+        top: 40px;
+    }
+}
+
+/* BUSCADOR */
+nav{ 
+    form{
+        input{
+            border-radius: 40px;
+    height: 35px;
+    border: white;
+    padding-right: 220px;
+    padding-left: 10px;
+    position: relative;
+    right: 24em;
+    bottom: 15px;
+        } 
+    }   
+}
+
+.fa-magnifying-glass{
+    color: black;
+    position: relative;
+    right: 27em;
+    bottom: 10px;
+    border: white;
+}
+::placeholder{
+    color: black;
+}
+
+
+
