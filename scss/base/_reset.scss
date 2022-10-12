@@ -1,6 +1,6 @@
 //RECETEO DEL CSS EN NAVEGADOR, ETIQUETAS Y CLASES
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -10,23 +10,42 @@
 .logo--pet {
     text-decoration: none;
 }
+
 //MENU
-nav{
-    li{
-        a{
-            text-decoration:none;
+nav {
+    li {
+        a {
+            text-decoration: none;
         }
     }
 }
+
 //TARJETA/COMPRAR
 .tarjeta a {
     text-decoration: none;
 }
+
 .tarjeta--dos a {
     text-decoration: none;
-  }
+}
 
-  //PIE DE PAGINA
-  .box a {
+//PIE DE PAGINA
+.box a {
     text-decoration: none;
-  }
+}
+
+//PRODUCTOS
+.filtro ul {
+    list-style: none;
+}
+.filtro a {
+    text-decoration: none;
+}
+//BARRA NUMERICA 
+.paginacion ul {
+    list-style: none;
+
+    & a{
+        text-decoration: none;
+    }
+}

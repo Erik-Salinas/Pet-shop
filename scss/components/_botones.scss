@@ -21,18 +21,20 @@
     bottom: 87px;
     left: 90px;
 }
+
 //PREGUNTAS
- button {
-  height: 40px;
+button {
+    height: 40px;
 }
 
 button h3 {
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 1.2rem;
-  padding-top: 10px;
-  color: black;
-} 
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    color: black;
+}
+
 //CONTACTO
 //REVISAR BUTTON DE ENVIO Y BORRAR
 .botones button {
@@ -42,7 +44,7 @@ button h3 {
     height: 30px;
     background-color: white;
     color: black;
-    
+
     &:hover {
         border: #6da0e2de 1px solid;
         width: 80px;
@@ -51,6 +53,7 @@ button h3 {
         color: white;
     }
 }
+
 //PIE DE PAGINA 
 .fa-whatsapp {
     position: fixed;
@@ -87,4 +90,3 @@ button h3 {
     font-size: 70px;
     z-index: 100;
 }
-

@@ -26,6 +26,21 @@ nav li a {
   text-decoration: none;
 }
 
+.filtro ul {
+  list-style: none;
+}
+
+.filtro a {
+  text-decoration: none;
+}
+
+.paginacion ul {
+  list-style: none;
+}
+.paginacion ul a {
+  text-decoration: none;
+}
+
 .barra__info h2 {
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -222,6 +237,28 @@ button h3 {
   font-size: 0.9rem;
   font-family: "Inter", sans-serif;
   font-weight: 400;
+}
+
+.title-productos h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin-top: 100px;
+  font-size: 3rem;
+  color: black;
+  margin-left: 6em;
+}
+
+.filtro strong {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.filtro a {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #1E1E1E;
 }
 
 header {
@@ -645,6 +682,78 @@ button h3 {
 .categoria--dos__resultado img {
   width: 400px;
   height: 250px;
+}
+
+.title-productos {
+  display: flex;
+  flex-direction: row;
+}
+.title-productos img {
+  margin-left: 50px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 14vw auto;
+  grid-template-rows: 80em auto;
+}
+
+.filtro {
+  background-color: #6DA0E2;
+}
+.filtro strong {
+  display: inline-block;
+  margin-left: 30px;
+}
+.filtro hr {
+  color: white;
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.marcas input {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.marcas span {
+  color: white;
+}
+
+.productos {
+  background-color: #EEAB49;
+}
+.productos .tarjetas-pro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.paginacion ul {
+  text-align: center;
+}
+.paginacion ul li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.paginacion ul a {
+  display: block;
+  margin-top: 20px;
+  padding: 5px 15px;
+  font-size: 1.2rem;
+  background-color: rgba(255, 153, 0, 0.4470588235);
+  color: black;
+}
+.paginacion ul a:hover {
+  background-color: #6DA0E2;
+  color: white;
+}
+.paginacion ul li .active {
+  background-color: #6DA0E2;
+  color: white;
 }
 
 /* PREGUNTAS */

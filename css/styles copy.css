@@ -421,7 +421,7 @@
 } */
 
 /* PRODUCTOS */
-.title-productos {
+/* .title-productos {
   display: flex;
   flex-direction: row;
 }
@@ -433,7 +433,7 @@
   font-size: 3rem;
   color: black;
   margin-left: 6em;
-}
+} */
 
 .title-productos img {
   margin-left: 50px;
@@ -446,7 +446,7 @@
 }
 
 /* FILTRO */
-.filtro {
+/* .filtro {
   background-color: #6DA0E2;
 }
 
@@ -457,37 +457,37 @@
   margin-left: 30px;
   color: black;
   font-size: 1.2rem;
-}
+} */
 
-.filtro ul {
+/* .filtro ul {
   list-style: none;
-}
+} */
 
-.filtro a {
+/* .filtro a {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   text-decoration: none;
   color: #1E1E1E;
-}
+} */
 
-.filtro hr {
+/* .filtro hr {
   color: white;
   width: 150px;
   display: block;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
-.marcas input {
+/* .marcas input {
   display: inline-block;
   margin-left: 30px;
-}
+} */
 
-.marcas span {
+/* .marcas span {
   color: white;
-}
+} */
 
-.productos {
+/* .productos {
   background-color: #EEAB49;
 }
 
@@ -496,20 +496,20 @@
   flex-direction: row;
   justify-content: center;
   margin-top: 30px;
-}
+} */
 
 /* BARRA NUMERICA */
-.paginacion ul {
+/* .paginacion ul {
   list-style: none;
   text-align: center;
-}
+} */
 
-.paginacion li {
+/* .paginacion li {
   display: inline-block;
   margin-right: 10px;
-}
+} */
 
-.paginacion a {
+/* .paginacion a {
   display: block;
   margin-top: 20px;
   padding: 5px 15px;
@@ -517,9 +517,9 @@
   text-decoration: none;
   background-color: #EEAB49;
   color: black;
-}
+} */
 
-.paginacion a:hover {
+/* .paginacion a:hover {
   background-color: #6DA0E2;
   color: white;
 }
@@ -527,7 +527,7 @@
 .paginacion li .active {
   background-color: #6DA0E2;
   color: white;
-}
+} */
 
 /* PREGUNTAS */
 /* .accordion {
