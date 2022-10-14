@@ -1,19 +1,18 @@
 //MENU
 header {
-    background-color: #6DA0E2;
+    background-color:map-get($background-color , "menu" );
     width: 100%;
 }
 
 .logo--pet {
     margin-left: 20px;
-    color: white;
 
     & img{
         width: 80px;
     }
 
     & h1{
-        color: white;
+        color:map-get($colors, title );
         font-size: 0.9rem;
         text-align: center;
     }
@@ -21,14 +20,11 @@ header {
 .navbar{
     li{
         a{
-            color: white;
+            color:map-get($colors , "menu" );
             text-decoration: none;
             font-size: 1.2rem;
             margin: 0 40px;  
         }
-    }
-    & li a:hover{
-        color: white;
     }
     & ul li{
         position: relative;
@@ -61,7 +57,7 @@ nav{
     border: white;
 }
 ::placeholder{
-    color: black;
+    color:map-get($colors , "buscador");
 }
 
 

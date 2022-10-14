@@ -1,0 +1,35 @@
+//VARIABLES
+//INICIO
+$colors:(
+    //Header
+    "menu": white,
+    "buscador":black,
+    "title":white,
+
+    //Main
+    //Tarjetas /Nosotros
+    "subtitle": #F28C30,
+    "subtitle-2": white,
+    "subtitle-3":black,
+    "parrafo":black,
+    "titles-tarjetas":#989A9C,
+    "bloques-tarjetas":white,
+
+    //Categorías
+    "subtitle-categoria":white,
+
+);
+
+$background-color:(
+    //Header
+    "menu": #6DA0E2,
+    
+    //Main
+    //Tarjetas
+    "bloques-tarjetas":#39BEDB,
+    "bloques-tarjetas-2":#989A9C,
+    "bloques-tarjetas-3":#E26D6D,
+
+    //Categorías
+    "bloques-categorias": #EEBA49,
+);

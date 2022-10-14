@@ -58,7 +58,7 @@ nav li a {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.3rem;
-  color: rgba(0, 0, 0, 0.91);
+  color: black;
 }
 
 /* PRODUCTOS DESTACADOS */
@@ -177,6 +177,7 @@ nav li a {
   font-size: 1.3rem;
   margin-left: 200px;
   margin-top: 50px;
+  color: black;
 }
 
 button h3 {
@@ -268,7 +269,6 @@ header {
 
 .logo--pet {
   margin-left: 20px;
-  color: white;
 }
 .logo--pet img {
   width: 80px;
@@ -284,9 +284,6 @@ header {
   text-decoration: none;
   font-size: 1.2rem;
   margin: 0 40px;
-}
-.navbar li a:hover {
-  color: white;
 }
 .navbar ul li {
   position: relative;
