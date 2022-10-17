@@ -5,7 +5,8 @@
 }
 
 //Header
-nav ul {
+
+.navbar ul   {
     @include celular() {
         background-color: #EEBA49;
         border-radius: 5px;
@@ -13,15 +14,15 @@ nav ul {
     }
 }
 
-nav ul li {
+.navbar li {
     @include celular() {
-        text-align: center;
+         text-align: center;
         position: relative;
         left: 20px;
-        top: 5px;
-        margin: 10px 0px;
+         top: 5px;
+         margin: 10px 0px;
     }
-}
+ }
 
 .fa-magnifying-glass {
     @include celular() {
@@ -77,13 +78,7 @@ nav ul li {
     }
 }
 
-.logo--pet {
-    @include celular() {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
+
 
 nav form input {
     @include celular() {

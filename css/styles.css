@@ -10,6 +10,237 @@
   top: 29em;
 }
 
+@media screen and (max-width: 720px) {
+  .navbar ul {
+    background-color: #EEBA49;
+    border-radius: 5px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .navbar li {
+    text-align: center;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    margin: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .fa-magnifying-glass {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .dropdown-menu {
+    background-color: #6DA0E2;
+    margin-left: 60px;
+    margin-right: 80px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .dropdown-item {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .dropdown-menu a:hover {
+    background-color: #6DA0E2;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .dropdown-menu a {
+    font-size: 1rem;
+    position: relative;
+    right: 60px;
+    bottom: 2px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .dropdown-divider {
+    position: relative;
+    right: 20px;
+    bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .navbar-toggler {
+    background-color: white;
+    margin-bottom: 60px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  nav form input {
+    position: relative;
+    left: 1em;
+    top: 10px;
+    padding-right: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .proximamente img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .nosotros img {
+    width: 100%;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .nosotros p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .contacto {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .contacto label {
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 17px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .contacto input {
+    margin-top: -20px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .novedades {
+    position: relative;
+    top: -6px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .contacto button {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  textarea {
+    height: 90px;
+    resize: none;
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  ::placeholder {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .botones button {
+    border-radius: 5px;
+    border: white 1px solid;
+    width: 51px;
+    height: 30px;
+    background-color: white;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .botones button:hover {
+    border: rgba(109, 160, 226, 0.8705882353) 1px solid;
+    width: 51px;
+    height: 30px;
+    background-color: #6DA0E2;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .mapa {
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .contacto-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .contato-img-2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .pie-pagina .pie-pagina__info {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .fa-whatsapp {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    bottom: 50px;
+    right: 10px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .bi-arrow-up-circle-fill {
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    bottom: 50px;
+    left: 10px;
+    font-size: 40px;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -272,60 +503,6 @@ button h3 {
   font-weight: 400;
 }
 
-header {
-  background-color: #6DA0E2;
-  width: 100%;
-}
-
-.logo--pet {
-  margin-left: 20px;
-}
-.logo--pet img {
-  width: 80px;
-}
-.logo--pet h1 {
-  color: white;
-  font-size: 0.9rem;
-  text-align: center;
-}
-
-.navbar li a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.2rem;
-  margin: 0 40px;
-}
-.navbar ul li {
-  position: relative;
-  left: 20%;
-  top: 40px;
-}
-
-/* BUSCADOR */
-nav form input {
-  border-radius: 40px;
-  height: 35px;
-  border: white;
-  padding-right: 220px;
-  padding-left: 10px;
-  position: relative;
-  right: 24em;
-  bottom: 15px;
-  outline: none;
-}
-
-.fa-magnifying-glass {
-  color: black;
-  position: relative;
-  right: 27em;
-  bottom: 10px;
-  border: white;
-}
-
-::placeholder {
-  color: black;
-}
-
 .pie-pagina {
   width: 100%;
   background-color: #6DA0E2;
@@ -390,6 +567,60 @@ nav form input {
 
 .pie-pagina, .politica-derechos p {
   font-size: 0.7rem;
+}
+
+header {
+  background-color: #6DA0E2;
+  width: 100%;
+}
+
+.logo--pet {
+  margin-left: 20px;
+}
+.logo--pet img {
+  width: 80px;
+}
+.logo--pet h1 {
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 0 40px;
+}
+.navbar ul li {
+  position: relative;
+  left: 20%;
+  top: 40px;
+}
+
+/* BUSCADOR */
+nav form input {
+  border-radius: 40px;
+  height: 35px;
+  border: white;
+  padding-right: 220px;
+  padding-left: 10px;
+  position: relative;
+  right: 24em;
+  bottom: 15px;
+  outline: none;
+}
+
+.fa-magnifying-glass {
+  color: black;
+  position: relative;
+  right: 27em;
+  bottom: 10px;
+  border: white;
+}
+
+::placeholder {
+  color: black;
 }
 
 .tarjeta a {
@@ -591,6 +822,137 @@ button h3 {
   bottom: 79px;
 }
 
+/* CONTACTO */
+.contacto {
+  width: 600px;
+  margin-left: 55em;
+  margin-top: 5em;
+}
+
+textarea {
+  width: 550px;
+  height: 150px;
+  resize: none;
+}
+
+.contacto-img {
+  position: absolute;
+  top: 20em;
+}
+
+.contato-img-2 {
+  margin-left: 70em;
+  position: absolute;
+  top: 55.3em;
+}
+
+.mapa {
+  display: block;
+  margin: auto;
+}
+
+.nosotros img {
+  width: 500px;
+  margin-left: 240px;
+  float: left;
+  margin-right: 20px;
+}
+
+/* PREGUNTAS */
+.accordion {
+  width: 50em;
+  background-color: #EEBA49;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.tarjetas-bancos {
+  display: block;
+  margin: auto;
+}
+
+.title-productos {
+  display: flex;
+  flex-direction: row;
+}
+.title-productos img {
+  margin-left: 50px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 14vw auto;
+  grid-template-rows: 80em auto;
+}
+
+.filtro {
+  background-color: #6DA0E2;
+}
+.filtro strong {
+  display: inline-block;
+  margin-left: 30px;
+}
+.filtro hr {
+  color: white;
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.marcas input {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.marcas span {
+  color: white;
+}
+
+.productos {
+  background-color: #EEBA49;
+}
+.productos .tarjetas-pro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.paginacion ul {
+  text-align: center;
+}
+.paginacion ul li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.paginacion ul a {
+  display: block;
+  margin-top: 20px;
+  padding: 5px 15px;
+  font-size: 1.2rem;
+  background-color: rgba(255, 153, 0, 0.4470588235);
+  color: black;
+}
+.paginacion ul a:hover {
+  background-color: #6DA0E2;
+  color: white;
+}
+.paginacion ul li .active {
+  background-color: #6DA0E2;
+  color: white;
+}
+
+.proximamente img {
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .fondo-portada {
   background-color: #EEBA49;
 }
@@ -675,376 +1037,6 @@ button h3 {
 .categoria__resultado img, .categoria--dos__resultado img {
   width: 400px;
   height: 250px;
-}
-
-.title-productos {
-  display: flex;
-  flex-direction: row;
-}
-.title-productos img {
-  margin-left: 50px;
-}
-
-.contenedor {
-  display: grid;
-  grid-template-columns: 14vw auto;
-  grid-template-rows: 80em auto;
-}
-
-.filtro {
-  background-color: #6DA0E2;
-}
-.filtro strong {
-  display: inline-block;
-  margin-left: 30px;
-}
-.filtro hr {
-  color: white;
-  width: 150px;
-  display: block;
-  margin: auto;
-}
-
-.marcas input {
-  display: inline-block;
-  margin-left: 30px;
-}
-
-.marcas span {
-  color: white;
-}
-
-.productos {
-  background-color: #EEBA49;
-}
-.productos .tarjetas-pro {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 30px;
-}
-
-.paginacion ul {
-  text-align: center;
-}
-.paginacion ul li {
-  display: inline-block;
-  margin-right: 10px;
-  margin-top: 10px;
-}
-.paginacion ul a {
-  display: block;
-  margin-top: 20px;
-  padding: 5px 15px;
-  font-size: 1.2rem;
-  background-color: rgba(255, 153, 0, 0.4470588235);
-  color: black;
-}
-.paginacion ul a:hover {
-  background-color: #6DA0E2;
-  color: white;
-}
-.paginacion ul li .active {
-  background-color: #6DA0E2;
-  color: white;
-}
-
-/* PREGUNTAS */
-.accordion {
-  width: 50em;
-  background-color: #EEBA49;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
-.tarjetas-bancos {
-  display: block;
-  margin: auto;
-}
-
-.nosotros img {
-  width: 500px;
-  margin-left: 240px;
-  float: left;
-  margin-right: 20px;
-}
-
-/* CONTACTO */
-.contacto {
-  width: 600px;
-  margin-left: 55em;
-  margin-top: 5em;
-}
-
-textarea {
-  width: 550px;
-  height: 150px;
-  resize: none;
-}
-
-.contacto-img {
-  position: absolute;
-  top: 20em;
-}
-
-.contato-img-2 {
-  margin-left: 70em;
-  position: absolute;
-  top: 55.3em;
-}
-
-.mapa {
-  display: block;
-  margin: auto;
-}
-
-.proximamente img {
-  width: 800px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media screen and (max-width: 720px) {
-  nav ul {
-    background-color: #EEBA49;
-    border-radius: 5px;
-    padding-bottom: 20px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  nav ul li {
-    text-align: center;
-    position: relative;
-    left: 20px;
-    top: 5px;
-    margin: 10px 0px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .fa-magnifying-glass {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .dropdown-menu {
-    background-color: #6DA0E2;
-    margin-left: 60px;
-    margin-right: 80px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .dropdown-item {
-    position: relative;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .dropdown-menu a:hover {
-    background-color: #6DA0E2;
-    color: white;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .dropdown-menu a {
-    font-size: 1rem;
-    position: relative;
-    right: 60px;
-    bottom: 2px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .dropdown-divider {
-    position: relative;
-    right: 20px;
-    bottom: 5px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .navbar-toggler {
-    background-color: white;
-    margin-bottom: 60px;
-    font-size: 15px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .logo--pet {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  nav form input {
-    position: relative;
-    left: 1em;
-    top: 10px;
-    padding-right: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .proximamente img {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .nosotros img {
-    width: 100%;
-    float: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .nosotros p {
-    text-align: center;
-    font-size: 1.2rem;
-    margin-left: 10px;
-    margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .contacto {
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .contacto label {
-    font-size: 0.7rem;
-    position: relative;
-    bottom: 17px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .contacto input {
-    margin-top: -20px;
-    height: 25px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .novedades {
-    position: relative;
-    top: -6px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .contacto button {
-    font-size: 0.7rem;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  textarea {
-    height: 90px;
-    resize: none;
-    margin-top: -20px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  ::placeholder {
-    font-size: 0.7rem;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .botones button {
-    border-radius: 5px;
-    border: white 1px solid;
-    width: 51px;
-    height: 30px;
-    background-color: white;
-    color: black;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .botones button:hover {
-    border: rgba(109, 160, 226, 0.8705882353) 1px solid;
-    width: 51px;
-    height: 30px;
-    background-color: #6DA0E2;
-    color: white;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .mapa {
-    width: 80%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .contacto-img {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .contato-img-2 {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .pie-pagina .pie-pagina__info {
-    width: 90%;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 30px;
-    padding: 35px 0px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .fa-whatsapp {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    bottom: 50px;
-    right: 10px;
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .bi-arrow-up-circle-fill {
-    width: 40px;
-    height: 40px;
-    line-height: 30px;
-    bottom: 50px;
-    left: 10px;
-    font-size: 40px;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */

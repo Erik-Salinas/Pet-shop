@@ -1,24 +1,22 @@
 //ARCHIVO PRINCIPAL
 //VINCULACION DE CARPERTAS Y ARCHIVOS
 @import"utils/extend";
+@import"utils/mixins";
 @import"utils/variables.scss";
 
 @import"base/reset.scss";
 @import"base/tipografia.scss";
 
-@import"layout/header";
 @import"layout/footer";
+@import"layout/header";
 
 @import"components/botones";
 @import"components/desplegable";
 @import"components/tarjetas";
 
-@import"pages/index";
-@import"pages/productos";
-@import"pages/preguntas";
-@import"pages/nosotros";
 @import"pages/contacto";
+@import"pages/nosotros";
+@import"pages/preguntas";
+@import"pages/productos";
 @import"pages/proximamente";
-
-
-@import"utils/mixins";
+@import"pages/index";
