@@ -7,14 +7,14 @@
     & h2 {
         font-family: 'Inter', sans-serif;
         font-weight: 600;
-        color:map-get($colors , "subtitle" );
+        color: map-get($colors , "subtitle");
         font-size: 2rem;
     }
 
     & p {
         font-family: 'Inter', sans-serif;
         font-weight: 600;
-        color:map-get($colors , "parrafo");
+        color: map-get($colors , "parrafo");
         font-size: 1.3rem;
     }
 }
@@ -24,7 +24,7 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 1.3rem;
-    color:map-get($colors , "subtitle-3");
+    color: map-get($colors , "subtitle-3");
 }
 
 /* PRODUCTOS DESTACADOS */
@@ -33,21 +33,21 @@
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
-    color:map-get($colors , "subtitle-3");
+    color: map-get($colors , "subtitle-3");
 }
 
 //SUBTITULO DE TARJETAS
 .tarjeta h5 {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    color:map-get($colors , "titles-tarjetas");
+    color: map-get($colors , "titles-tarjetas");
     font-size: 1rem;
 }
 
 .tarjeta--dos h5 {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
-    color:map-get($colors , "titles-tarjetas");
+    color: map-get($colors , "titles-tarjetas");
     font-size: 1rem;
 }
 
@@ -69,8 +69,8 @@
     font-weight: 600;
     text-align: center;
     font-size: 0.9rem;
-    color:map-get($colors , "bloques-tarjetas");
-    background-color: map-get($background-color , "bloques-tarjetas-2" );
+    color: map-get($colors , "bloques-tarjetas");
+    background-color: map-get($background-color , "bloques-tarjetas-2");
 
 }
 
@@ -79,8 +79,8 @@
     font-weight: 600;
     text-align: center;
     font-size: 0.9rem;
-    color:map-get($colors , "bloques-tarjetas");
-    background-color: map-get($background-color , "bloques-tarjetas" );
+    color: map-get($colors , "bloques-tarjetas");
+    background-color: map-get($background-color , "bloques-tarjetas");
 }
 
 .p-info-rojo {
@@ -88,7 +88,7 @@
     font-weight: 600;
     text-align: center;
     font-size: 0.9rem;
-    color:map-get($colors , "bloques-tarjetas");
+    color: map-get($colors , "bloques-tarjetas");
     background-color: map-get($background-color , "bloques-tarjetas-3");
 }
 
@@ -97,8 +97,8 @@
     font-weight: 600;
     text-align: center;
     font-size: 0.9rem;
-    color:map-get($colors , "bloques-tarjetas");
-    background-color: map-get($background-color , "bloques-tarjetas-2" );
+    color: map-get($colors , "bloques-tarjetas");
+    background-color: map-get($background-color , "bloques-tarjetas-2");
 }
 
 //CATEGORIA
@@ -107,7 +107,7 @@
     font-weight: 700;
     text-align: center;
     font-size: 3rem;
-    color: map-get($colors , "subtitle-3" );
+    color: map-get($colors , "subtitle-3");
 }
 
 .categoria__resultado h6 {
@@ -115,9 +115,9 @@
     font-weight: 400;
     text-align: center;
     font-size: 1.5rem;
-    background-color:map-get($background-color , "bloques-categorias");
+    background-color: map-get($background-color , "bloques-categorias");
     padding: 10px;
-    color: map-get($colors , "subtitle-categoria" );
+    color: map-get($colors , "subtitle-categoria");
 }
 
 .categorias--dos h6 {
@@ -125,10 +125,11 @@
     font-weight: 400;
     text-align: center;
     font-size: 1.5rem;
-    background-color:map-get($background-color , "bloques-categorias");
+    background-color: map-get($background-color , "bloques-categorias");
     padding: 10px;
-    color: map-get($colors , "subtitle-categoria" );
+    color: map-get($colors , "subtitle-categoria");
 }
+
 /* NOSOTROS */
 
 .nosotros__title h2 {
@@ -138,74 +139,40 @@
     margin-top: 80px;
     padding-bottom: 80px;
     font-size: 2rem;
-    color: map-get($colors , "subtitle-3" );
+    color: map-get($colors , "subtitle-3");
 }
+
 .nosotros p {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 1.3rem;
     margin-left: 200px;
     margin-top: 50px;
-    color: map-get($colors , "parrafo" );
+    color: map-get($colors , "parrafo");
 }
+
 //PREGUNTAS
 button h3 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
     padding-top: 10px;
-    color: black;
+    color: map-get($colors , "preguntas");
 }
+
 .accordion-body {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  color: black;
-  font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: map-get($colors , "preguntas");
+    font-size: 1rem;
 }
 
 .retiros-envios {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    color: black;
+    color: map-get($colors , "preguntas");
     font-size: 1rem;
     text-decoration: solid 3px red;
-}
-
-/* CONTACTO */
-.contacto {
-    background-color: #EEBA49;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-}
-//PIE DE PAGINA
-.pie-pagina .pie-pagina__info {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-}
-
-.box h2 {
-    color: white;
-    margin-bottom: 25px;
-    font-size: 1.6rem;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-}
-
-.pie-pagina .pie-pagina__info .box h3 {
-    color: white;
-    margin-bottom: 25px;
-    font-size: 1.5rem;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-}
-
-.pie-pagina .pie-pagina__info .box p {
-    color: black;
-    margin-bottom: 20px;
-    font-size: 0.9rem;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
 }
 
 //PRODCUTOS
@@ -214,18 +181,57 @@ button h3 {
     font-weight: 700;
     margin-top: 100px;
     font-size: 3rem;
-    color: black;
+    color: map-get($colors , "productos-title" );
     margin-left: 6em;
 }
 
 .filtro strong {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    color: black;
+    color: map-get($colors , "productos-title" );
     font-size: 1.2rem;
 }
+
 .filtro a {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    color: #1E1E1E;
+    color: map-get($colors , "productos-title" );
+}
+
+/* CONTACTO */
+.contacto {
+    background-color: map-get($background-color, "contacto" );
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+//PIE DE PAGINA
+.pie-pagina .pie-pagina__info {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.box h2 {
+    color: map-get($colors , "pie-pagina-title");
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.pie-pagina .pie-pagina__info .box h3 {
+    color: map-get($colors , "pie-pagina-subtitle");
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.pie-pagina .pie-pagina__info .box p {
+    color: map-get($colors , "pie-pagina-parrafo");
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }

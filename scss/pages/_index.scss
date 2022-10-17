@@ -1,8 +1,7 @@
 //EN ESTE ARCHIVO SE INCORPORA EL @MEDIA
 //INICIO
 .fondo-portada {
-    background-color: #EEBA49;
-
+    background-color:map-get($background-color , "fondo-main" );
     & img {
         width: 145vh;
         display: block;
@@ -12,7 +11,7 @@
 
 //---INFORMACION PRINCIPAL---
 .barra {
-    background-color: #6DA0E2;
+    background-color:map-get($background-color , "menu" );
     height: 150px;
 }
 
@@ -70,7 +69,7 @@
 
 /* PRODUCTOS DESTACADOS */
 .p-destacado {
-    background-color: #EEBA49;
+    background-color:map-get($background-color , "fondo-main" );
     height: 60vh;
 }
 
@@ -79,34 +78,21 @@
     padding-top: 50px;
 }
 
-.categorias {
+.categorias, .categorias--dos {
     padding-left: 300px;
     padding-right: 300px;
 }
 
-.categoria__resultado {
+.categoria__resultado, .categoria--dos__resultado {
     display: inline-block;
     padding: 40px;
     margin-top: 70px;
 }
 
-.categoria__resultado img {
+.categoria__resultado img, .categoria--dos__resultado img {
     width: 400px;
     height: 250px;
 }
 
-.categorias--dos {
-    padding-left: 300px;
-    padding-right: 300px;
-}
 
-.categoria--dos__resultado {
-    display: inline-block;
-    padding: 40px;
-}
-
-.categoria--dos__resultado img {
-    width: 400px;
-    height: 250px;
-}
 

@@ -1,0 +1,12 @@
+//Preguntas
+
+.pregunta-perro {
+    position: absolute;
+    left: 60px;
+}
+
+.pregunta-gato {
+    @extend .pregunta-perro;
+    left: 77em;
+    top: 29em;
+}

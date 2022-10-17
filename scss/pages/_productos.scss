@@ -44,8 +44,7 @@
 }
 
 .productos {
-    background-color: #EEAB49;
-
+    background-color:map-get($background-color , "fondo-main" );
     & .tarjetas-pro {
         display: flex;
         flex-direction: row;

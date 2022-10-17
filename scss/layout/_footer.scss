@@ -1,7 +1,7 @@
 //PIE DE PAGINA
 .pie-pagina {
     width: 100%;
-    background-color: #6DA0E2;
+    background-color:map-get($background-color , "pie-pagina" );
 
     & .pie-pagina__info {
         width: 100%;
@@ -56,18 +56,17 @@
 
 .fa-square-facebook {
     font-size: 30px;
-
     line-height: 23px;
     color: #0077B7;
     background-color: white;
 }
 
-.pie-pagina .politica-derechos {
-    background-color: #6DA0E2;
+.pie-pagina, .politica-derechos {
+    background-color:map-get($background-color , "pie-pagina" );
     text-align: center;
     color: #fff;
 }
 
-.pie-pagina .politica-derechos p {
+.pie-pagina, .politica-derechos p {
     font-size: 0.7rem;
 }

@@ -14,10 +14,25 @@ $colors:(
     "parrafo":black,
     "titles-tarjetas":#989A9C,
     "bloques-tarjetas":white,
+    "fondo-tarjetas":white,
 
     //Categorías
     "subtitle-categoria":white,
 
+    //Productos
+    "productos-title":black,
+
+    //Preguntas
+    "preguntas":black,
+
+    //Contacto
+    "contacto-parrafo":black,
+    "contacto-parrafo-hover":white,
+
+    //Pie de pagina
+    "pie-pagina-title":white,
+    "pie-pagina-subtitle":white,
+    "pie-pagina-parrafo":black,
 );
 
 $background-color:(
@@ -25,11 +40,21 @@ $background-color:(
     "menu": #6DA0E2,
     
     //Main
+    "fondo-main": #EEBA49,
     //Tarjetas
     "bloques-tarjetas":#39BEDB,
     "bloques-tarjetas-2":#989A9C,
     "bloques-tarjetas-3":#E26D6D,
+    "bloques-compra":#00ba1f,
 
     //Categorías
     "bloques-categorias": #EEBA49,
+
+    //Contacto
+    "contacto":#EEBA49,
+    "botones":white,
+    "botones-hover":#6DA0E2,
+
+    //Pie de pagina
+    "pie-pagina":#6DA0E2,
 );

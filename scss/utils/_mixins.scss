@@ -1,0 +1,251 @@
+@mixin celular {
+    @media screen and (max-width: 720px) {
+        @content;
+    }
+}
+
+//Header
+nav ul {
+    @include celular() {
+        background-color: #EEBA49;
+        border-radius: 5px;
+        padding-bottom: 20px;
+    }
+}
+
+nav ul li {
+    @include celular() {
+        text-align: center;
+        position: relative;
+        left: 20px;
+        top: 5px;
+        margin: 10px 0px;
+    }
+}
+
+.fa-magnifying-glass {
+    @include celular() {
+        display: none;
+    }
+}
+
+.dropdown-menu {
+    @include celular() {
+        background-color: #6DA0E2;
+        margin-left: 60px;
+        margin-right: 80px;
+
+    }
+}
+
+.dropdown-item {
+    @include celular() {
+        position: relative;
+    }
+}
+
+.dropdown-menu a:hover {
+    @include celular() {
+        background-color: #6DA0E2;
+        color: white;
+    }
+}
+
+.dropdown-menu a {
+
+    @include celular() {
+        font-size: 1rem;
+        position: relative;
+        right: 60px;
+        bottom: 2px;
+    }
+}
+
+.dropdown-divider {
+    @include celular() {
+        position: relative;
+        right: 20px;
+        bottom: 5px;
+    }
+}
+
+.navbar-toggler {
+    @include celular() {
+        background-color: white;
+        margin-bottom: 60px;
+        font-size: 15px;
+    }
+}
+
+.logo--pet {
+    @include celular() {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+nav form input {
+    @include celular() {
+        position: relative;
+        left: 1em;
+        top: 10px;
+        padding-right: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+//Proximamente
+.proximamente img {
+    @include celular() {
+        width: 100%;
+    }
+}
+
+//Nosotros
+.nosotros img {
+    @include celular() {
+        width: 100%;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.nosotros p {
+    @include celular() {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+}
+
+//Contacto
+.contacto {
+    @include celular() {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.contacto label {
+    @include celular() {
+        font-size: 0.7rem;
+        position: relative;
+        bottom: 17px;
+    }
+}
+
+.contacto input {
+    @include celular() {
+        margin-top: -20px;
+        height: 25px;
+    }
+}
+
+.novedades {
+    @include celular() {
+        position: relative;
+        top: -6px;
+    }
+}
+
+.contacto button {
+    @include celular() {
+        font-size: 0.7rem;
+    }
+}
+
+textarea {
+    @include celular() {
+        height: 90px;
+        resize: none;
+        margin-top: -20px;
+    }
+}
+
+::placeholder {
+    @include celular() {
+        font-size: 0.7rem;
+    }
+}
+
+.botones button {
+    @include celular() {
+        border-radius: 5px;
+        border: white 1px solid;
+        width: 51px;
+        height: 30px;
+        background-color: white;
+        color: black;
+    }
+}
+
+.botones button:hover {
+    @include celular() {
+        border: #6da0e2de 1px solid;
+        width: 51px;
+        height: 30px;
+        background-color: #6DA0E2;
+        color: white;
+    }
+}
+
+.mapa {
+    @include celular() {
+        width: 80%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.contacto-img {
+    @include celular() {
+        display: none;
+    }
+}
+
+.contato-img-2 {
+    @include celular() {
+        display: none;
+    }
+}
+
+//footer
+.pie-pagina .pie-pagina__info {
+    @include celular() {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+.fa-whatsapp {
+    @include celular() {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        bottom: 50px;
+        right: 10px;
+        font-size: 30px;
+    }
+}
+
+.bi-arrow-up-circle-fill {
+    @include celular() {
+        width: 40px;
+        height: 40px;
+        line-height: 30px;
+        bottom: 50px;
+        left: 10px;
+        font-size: 40px;
+    }
+}

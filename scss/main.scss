@@ -1,8 +1,7 @@
 //ARCHIVO PRINCIPAL
 //VINCULACION DE CARPERTAS Y ARCHIVOS
-
+@import"utils/extend";
 @import"utils/variables.scss";
-@import"utils/variables";
 
 @import"base/reset.scss";
 @import"base/tipografia.scss";
@@ -14,10 +13,12 @@
 @import"components/desplegable";
 @import"components/tarjetas";
 
-
 @import"pages/index";
 @import"pages/productos";
 @import"pages/preguntas";
 @import"pages/nosotros";
 @import"pages/contacto";
 @import"pages/proximamente";
+
+
+@import"utils/mixins";

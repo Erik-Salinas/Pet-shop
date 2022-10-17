@@ -435,7 +435,7 @@
   margin-left: 6em;
 } */
 
-.title-productos img {
+/* .title-productos img {
   margin-left: 50px;
 }
 
@@ -443,7 +443,7 @@
   display: grid;
   grid-template-columns: 14vw auto;
   grid-template-rows: 80em auto;
-}
+} */
 
 /* FILTRO */
 /* .filtro {
@@ -573,7 +573,7 @@ button h3 {
   text-decoration: solid 3px red;
 } */
 
-.pregunta-perro {
+/* .pregunta-perro {
   position: absolute;
   left: 60px;
 }
@@ -582,7 +582,7 @@ button h3 {
   position: absolute;
   left: 77em;
   top: 34em;
-}
+} */
 
 /* NOSOTROS */
 
@@ -945,13 +945,13 @@ textarea {
 
 
 
-
+/* 
 .contacto-img {
   display: none;
 }
 .contato-img-2 {
   display: none;
-}
+} */
 
 .mapa {
   width: 80%;
@@ -960,12 +960,12 @@ textarea {
   margin-left: auto;
 }
 /*---PROXIMAMENTE---*/
-.proximamente img {
+/* .proximamente img {
   width: 100%;
-}
+} */
   /*---FOOTER---*/
  
-  .pie-pagina .pie-pagina__info {
+  /* .pie-pagina .pie-pagina__info {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
@@ -979,9 +979,9 @@ textarea {
     bottom: 50px;
     right: 10px;
     font-size: 30px;
-  }
+  } */
 
-  .bi-arrow-up-circle-fill {
+  /* .bi-arrow-up-circle-fill {
 
     width: 40px;
     height: 40px;
@@ -989,8 +989,7 @@ textarea {
     bottom: 50px;
     left: 10px;
     font-size: 40px;
-  }
+  } */
 
 }
 
-/* CELULAR */

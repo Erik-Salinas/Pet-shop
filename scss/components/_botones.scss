@@ -3,7 +3,7 @@
 //TARJETA/COMPRA
 .tarjeta a {
     color: white;
-    background-color: #00DD23;
+    background-color:map-get($background-color , "bloques-compra");
     padding: 5px;
     font-size: 0.8rem;
     margin: 7em;
@@ -14,7 +14,7 @@
 
 .tarjeta--dos a {
     color: white;
-    background-color: #00DD23;
+    background-color:map-get($background-color , "bloques-compra");
     padding: 5px;
     font-size: 0.8rem;
     position: relative;
@@ -36,21 +36,20 @@ button h3 {
 }
 
 //CONTACTO
-//REVISAR BUTTON DE ENVIO Y BORRAR
 .botones button {
     border-radius: 5px;
-    border: white 1px solid;
+    border: map-get($background-color , "botones")  1px solid;
     width: 80px;
     height: 30px;
-    background-color: white;
-    color: black;
+    background-color: map-get($background-color , "botones");
+    color: map-get($colors , "contacto-parrafo");
 
     &:hover {
-        border: #6da0e2de 1px solid;
+        border: map-get($background-color , "botones-hover")  1px solid;
         width: 80px;
         height: 30px;
-        background-color: #6DA0E2;
-        color: white;
+        background-color: map-get($background-color , "botones-hover");
+        color: map-get($colors , "contacto-parrafo-hover");
     }
 }
 

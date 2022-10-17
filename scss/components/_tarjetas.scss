@@ -7,14 +7,14 @@
 }
 
 .tarjeta {
-    background-color: white;
+    background-color: map-get($colors , "fondo-tarjetas" );
     width: 23vh;
     height: 47vh;
     margin-left: 20px;
 
 }
 .tarjeta--dos {
-    background-color: white;
+    background-color: map-get($colors , "fondo-tarjetas" );
     width: 23vh;
     height: 47vh;
     margin-left: 20px;
@@ -28,7 +28,7 @@
     text-align: center;
     font-size: 0.9rem;
     color: black;
-    background-color: #39BEDB;
+    background-color: map-get($background-color ,"bloques-tarjetas" );
     margin-left: 120px;
     padding: 3px;
     position: relative;
@@ -38,7 +38,7 @@
     text-align: center;
     font-size: 0.9rem;
     color: black;
-    background-color: #39BEDB;
+    background-color: map-get($background-color ,"bloques-tarjetas" );
     margin-left: 100px;
     padding: 3px;
     position: relative;

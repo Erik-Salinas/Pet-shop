@@ -23,13 +23,14 @@ header {
             color:map-get($colors , "menu" );
             text-decoration: none;
             font-size: 1.2rem;
-            margin: 0 40px;  
+            margin: 0 40px;
         }
     }
     & ul li{
         position: relative;
         left: 20%;
-        top: 40px;
+        top: 40px; 
+
     }
 }
 
@@ -45,6 +46,8 @@ nav{
     position: relative;
     right: 24em;
     bottom: 15px;
+    outline:none; //outline es un border que va fuera del bloque y border dentro del bloque. Con outline-offset separa el borde de la caja
+
         } 
     }   
 }
