@@ -623,6 +623,88 @@ nav form input {
   color: black;
 }
 
+@media screen and (max-width: 720px) {
+  .navbar ul {
+    background-color: #EEBA49;
+    border-radius: 5px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .navbar li {
+    text-align: center;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    margin: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .fa-magnifying-glass {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .dropdown-menu {
+    background-color: #6DA0E2;
+    margin-left: 60px;
+    margin-right: 80px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .dropdown-item {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .dropdown-menu a:hover {
+    background-color: #6DA0E2;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .dropdown-menu a {
+    font-size: 1rem;
+    position: relative;
+    right: 60px;
+    bottom: 2px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .dropdown-divider {
+    position: relative;
+    right: 20px;
+    bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .navbar-toggler {
+    background-color: white;
+    margin-bottom: 60px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  nav form input {
+    position: relative;
+    left: 1em;
+    top: 10px;
+    padding-right: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .tarjeta a {
   color: white;
   background-color: #00ba1f;
