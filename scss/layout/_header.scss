@@ -63,7 +63,7 @@ nav{
     color:map-get($colors , "buscador");
 }
 
-
+//RESPONSIVE
 .navbar ul   {
     @include celular {
         background-color: #EEBA49;
