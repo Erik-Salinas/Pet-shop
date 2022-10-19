@@ -70,3 +70,15 @@
 .pie-pagina, .politica-derechos p {
     font-size: 0.7rem;
 }
+
+//Responsive
+.pie-pagina .pie-pagina__info {
+    @include celular() {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+

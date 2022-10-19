@@ -235,3 +235,10 @@ button h3 {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
+//Responsive
+
+.navbar a:hover{
+    @include celular {
+        color: white;
+    }
+}
