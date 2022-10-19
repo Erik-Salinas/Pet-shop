@@ -1,0 +1,113 @@
+//ARCHIVOS DE BOTONES
+//INICIO
+//TARJETA/COMPRA
+.tarjeta a {
+    color: white;
+    background-color:map-get($background-color , "bloques-compra");
+    padding: 5px;
+    font-size: 0.8rem;
+    margin: 7em;
+    position: relative;
+    bottom: 7px;
+
+}
+
+.tarjeta--dos a {
+    color: white;
+    background-color:map-get($background-color , "bloques-compra");
+    padding: 5px;
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 87px;
+    left: 90px;
+}
+
+//PREGUNTAS
+button {
+    height: 40px;
+}
+
+button h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    color: black;
+}
+
+//CONTACTO
+.botones button {
+    border-radius: 5px;
+    border: map-get($background-color , "botones")  1px solid;
+    width: 80px;
+    height: 30px;
+    background-color: map-get($background-color , "botones");
+    color: map-get($colors , "contacto-parrafo");
+
+    &:hover {
+        border: map-get($background-color , "botones-hover")  1px solid;
+        width: 80px;
+        height: 30px;
+        background-color: map-get($background-color , "botones-hover");
+        color: map-get($colors , "contacto-parrafo-hover");
+    }
+}
+
+//PIE DE PAGINA 
+.fa-whatsapp {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    bottom: 50px;
+    right: 50px;
+    background-color: #00DD23;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 50px;
+    z-index: 100;
+
+    &:hover {
+        text-decoration: none;
+        color: #00DD23;
+        background-color: white;
+    }
+}
+
+.bi-arrow-up-circle-fill {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    line-height: 30px;
+    bottom: 50px;
+    left: 50px;
+    background-color: white;
+    color: #EEBA49;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 70px;
+    z-index: 100;
+}
+
+//Responsive
+.fa-whatsapp {
+    @include celular() {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        bottom: 50px;
+        right: 10px;
+        font-size: 30px;
+    }
+}
+.bi-arrow-up-circle-fill {
+    @include celular() {
+        width: 40px;
+        height: 40px;
+        line-height: 30px;
+        bottom: 50px;
+        left: 10px;
+        font-size: 40px;
+    }
+}

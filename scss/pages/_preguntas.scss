@@ -1,0 +1,17 @@
+//EN ESTE ARCHIVO SE INCORPORA EL @MEDIA
+
+/* PREGUNTAS */
+.accordion {
+    width: 50em;
+    background-color:map-get($background-color , "fondo-main" );
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.tarjetas-bancos {
+    display: block;
+    margin: auto;
+}

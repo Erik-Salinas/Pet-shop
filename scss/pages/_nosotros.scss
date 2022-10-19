@@ -1,0 +1,26 @@
+//EN ESTE ARCHIVO SE INCORPORA EL @MEDIA
+
+.nosotros img {
+    width: 500px;
+    margin-left: 240px;
+    float: left;
+    margin-right: 20px;
+}
+//Responsive
+.nosotros img {
+    @include celular() {
+        width: 100%;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.nosotros p {
+    @include celular() {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+}

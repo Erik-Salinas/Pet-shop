@@ -2,214 +2,263 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="..//css/fontawesome/css/fontawesome.min.css">
-    <link rel="stylesheet" href="../css/styles.css">
-    <title>Preguntas</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="..//css/fontawesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet icon" href="../imagenes/logo.png"> <!--Icono en pestaña  -->
+  <title>Preguntas</title>
+  <meta name="description" content="Preguntas frecuentes, ¿Cuáles son las formas de pago? Mercadopago: Hasta 3 cuotas sin interés con todas las tarjetas bancarizadas o débito/pago fácil. Depósito y Transferencia con 10% off sobre el total sin envío. La página no calcula este descuento, por lo que te contactaremos por WhatsApp al confirmar el pedido."><!--Descripcion  -->
 </head>
 
 <body id="menu">
   <header class="container-fluid">
     <nav class="navbar navbar-expand-lg">
-       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-         </button>
-          <a class="logo--pet" href="../index.html"><img src="../imagenes/logo.png" alt="logo de mundo pet salinas" class="me-3"><h1 class="me-3">Mundo pet <br> salinas</h1></a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="logo--pet" href="../index.html"><img src="../imagenes/logo.png" alt="logo de mundo pet salinas"
+          class="me-3">
+        <h1 class="me-3">Mundo pet <br> salinas</h1>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li>
+            <a aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li>
+            <a class=" dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Productos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="productos.html"> Domesticos</a></li>
               <li>
-                <a  aria-current="page" href="../index.html">Inicio</a>
+                <hr class="dropdown-divider">
               </li>
-              <li >
-                <a class=" dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Productos
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="productos.html"> Domesticos</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="productos.html">Exoticos</a></li>
-                </ul>
-              </li>
-              <li >
-                <a  href="preguntas.html">Preguntas</a>
-              </li>
-              <li >
-                <a  href="nosotros.html">Nosotros</a>
-              </li>
-              <li >
-                <a  href="contacto.html">Contacto</a>
-              </li>
-              <form class="d-flex" >
-               <input  type="search" placeholder="Buscar ..." autocomplete="off">
-               <i class="fa-solid fa-magnifying-glass btn"></i>
-             </form>
+              <li><a class="dropdown-item" href="productos.html">Exoticos</a></li>
             </ul>
+          </li>
+          <li>
+            <a href="preguntas.html">Preguntas</a>
+          </li>
+          <li>
+            <a href="nosotros.html">Nosotros</a>
+          </li>
+          <li>
+            <a href="contacto.html">Contacto</a>
+          </li>
+          <form class="d-flex">
+            <input type="search" placeholder="Buscar ..." autocomplete="off">
+            <i class="fa-solid fa-magnifying-glass btn"></i>
+          </form>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <img src="../imagenes/preguntas 3.jpg" alt="pregunta perro" class="pregunta-perro mt-5" width="220">
+    </section>
+    <div class="accordion p-5" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button  " type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseOne">
+            <h3>¿Cuáles son las formas de pago?</h3>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse "
+          aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <strong> Mercadopago:</strong> Hasta 3 cuotas sin interés con todas las tarjetas bancarizadas o débito/pago
+            fácil.
+            Depósito y Transferencia con 10% off sobre el total sin envío. La página no calcula este descuento, por lo
+            que te contactaremos por WhatsApp al confirmar el pedido.
           </div>
-      </nav>
-</header>
-        <main>
-          <section>
-            <img src="../imagenes/preguntas 3.jpg" alt="pregunta perro" class="pregunta-perro mt-5" width="220">
-          </section>
-            <div class="accordion p-5" id="accordionPanelsStayOpenExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                    <button class="accordion-button  " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                      <h3>¿Cuáles son las formas de pago?</h3>
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse " aria-labelledby="panelsStayOpen-headingOne">
-                    <div class="accordion-body">
-                      <strong> Mercadopago:</strong> Hasta 3 cuotas sin interés con todas las tarjetas bancarizadas o débito/pago fácil.
-                      Depósito y Transferencia con 10% off sobre el total sin envío. La página no calcula este descuento, por lo que te contactaremos por WhatsApp al confirmar el pedido. 
-                    </div>
-                    <img src="../imagenes/mercado-tarjetas.jpg" alt="tarjetas" width="450" class="tarjetas-bancos pt-4">
-                  </div>
-                </div>
-                <br>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                    <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                      <h3>Retiros y envíos</h3>
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                    <div class="accordion-body">
-                      <strong>Retiro sin costo en Recoleta (Capital Federal)</strong>
-                      <nav class="pt-3">
-                        <ul>
-                          <li> <span class="retiros-envios">CABA y alrededores:</span> Se realizan envios los dias Miércoles y Viernes. <br> 8:00 a.m - 20:00 p.m </li>
-                          <li class="pt-2"><span class="retiros-envios">Resto del país:</span> Trabajamos con Correo Argentino y Andreani a domicilio. Los días Martes y Jueves despachamos al correo y ellos demoran de 72hs a 5 días hábiles según la cercanía con CABA. Te enviaremos mail con el seguimiento de tu envío para que estés pendiente. <br><br>El correo realiza 2 visitas y luego dará la oportunidad de retirar en sucursal más cercana por 5 días. Luego de este plazo, el paquete es devuelto a remitente. <br><br> Si sucediera esto último, deberás abonar un nuevo envío.</li>
+          <img src="../imagenes/mercado-tarjetas.jpg" alt="tarjetas" width="450" class="tarjetas-bancos pt-4">
+        </div>
+      </div>
+      <br>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed  " type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseTwo">
+            <h3>Retiros y envíos</h3>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <strong>Retiro sin costo en Recoleta (Capital Federal)</strong>
+            <nav class="pt-3 ">
+              <ul>
+                <li> <span class="retiros-envios">CABA y alrededores:</span> Se realizan envios los dias Miércoles y
+                  Viernes. <br> 8:00 a.m - 20:00 p.m </li>
+                <li class="pt-2"><span class="retiros-envios">Resto del país:</span> Trabajamos con Correo Argentino y
+                  Andreani a domicilio. Los días Martes y Jueves despachamos al correo y ellos demoran de 72hs a 5 días
+                  hábiles según la cercanía con CABA. Te enviaremos mail con el seguimiento de tu envío para que estés
+                  pendiente. <br><br>El correo realiza 2 visitas y luego dará la oportunidad de retirar en sucursal más
+                  cercana por 5 días. Luego de este plazo, el paquete es devuelto a remitente. <br><br> Si sucediera
+                  esto último, deberás abonar un nuevo envío.</li>
 
-                        </ul>
-                      </nav>
-                    </div>
-                  </div>
-                </div>
-                <br>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                    <h3>Costo de envío</h3>
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                    <div class="accordion-body">
-                       El costo de envío podrás verlo luego de ingresar tu domicilio y antes de confirmar el pago. Este se calcula en base a los productos elegidos y domicilio de entrega.
-                    </div>
-                  </div>
-                </div>
-                <br>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                    <h3>Quiero hacer un cambio o devolucíon</h3>
-                      </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
-                      <div class="accordion-body">
-                       Si recibes un producto defectuoso o con fallas de fabricación, comunícate dentro de los 5 días hábiles después de la compra a mundopetsalinas@gmail.com para informar de esto y nos pondremos en contacto con vos para poder solucionar el problema. Pero no se aceptaran cambios de producto por fallas que no sean de fabricación. Por ejemplo, si tu mascota rompe el producto, Mundo pet salinas no se hace cargo de esto y no se considerara esto como falla del producto.
-                      </div>
-                    </div>
-                  </div>
-                  <br>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingFive">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
-                    <h3>¿Tenemos local?</h3>
-                      </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
-                      <div class="accordion-body">
-                        Por el momento solo vendemos de manera online. Es por esto que ofrecemos muchísima info en la página y fotos reales de cada producto. También podremos asesorarte con la mayor precisión por instagram o WhatsApp.
-                      </div>
-                    </div>
-                  </div>
-                  <br>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingSix">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
-                    <h3> Horario de atención</h3>
-                      </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
-                      <div class="accordion-body">
-                       Lunes a Vineres 8:00 a.m - 20:00 p.m y Sabados 8:00 a.m - 14:00 p.m
-                      </div>
-                    </div>
-                  </div>
-                  <br>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
-                    <h3>Contacto</h3>
-                      </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
-                      <div class="accordion-body">
-                        Escribinos a mundopetsalinas@gmail.com o al whatsapp +54 9 1140638603 y te estaremos respondiendo a la brevedad!
-                      </div>
-                    </div>
-                  </div>
-              </div>
-              <section>
-                <img src="../imagenes/preguntas 2.jpg" alt="pregunta gato" class="pregunta-gato" width="350">
-              </section>
-        </main>
-        <footer class="container-fluid">
-          <section class="row">
-              <div class="pie-pagina">
-                  <div class="pie-pagina__info">
-                      <div class="box">
-                          <figure>
-                              <a href="../index.html">
-                                  <img src="../imagenes/logo.png" alt="Logo de mundo pet salinas">
-                                  <h2>Mundo pet salinas</h2>
-                              </a>
-                          </figure>
-                      </div>
-                      <div class="box">
-                          <h3>¿NECESITAS AYUDA?</h3>
-                          <p>Estamos acá para ayudarte en lo que necesites,no dudes en contactarnos si tenés
-                              alguna pregunta o necesitas asistencia.</p>
-                          <p class="whatsapp"><img src="../imagenes/whatsApp_logo.png" alt="logo whatsapp">
-                              +5491140638603</p>
-                          <p class="correo"><img src="../imagenes/gmail _logo.png" alt="logo gmail">
-                              mundopetsalinas@gmail.com
-                          </p>
-                      </div>
-                      <div class="box">
-                          <h3>SIGUENOS</h3>
-                          <div class="red-social">
-                              <a href="https://www.linkedin.com/in/erik-salinas-48058824a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                              <a href="https://www.instagram.com/mundo_pet_salinas/" target="_blank"><img src="../imagenes/instagram_logo.png" alt="logo instagram"
-                                      width="27"></a>
-                              <a href="proximamente.html" ><i class="fa-brands fa-square-facebook"></i></a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="politica-derechos">
-                      <p><a href="proximamente.html" class="politica-derechos">
-                              &copy; 2022 <b>Mundo pet salinas online</b> - Todos los derechos
-                              reservados
-                          </a></p>
-                  </div>
-                  <div>
-                      <a href="https://api.whatsapp.com/send?phone=5491140638603" target="_blank"><i
-                              class="fa-brands fa-whatsapp"></i></a>
-                      <a href="#menu"><i class="bi bi-arrow-up-circle-fill"></i></a>
-                  </div>
-              </div>
-          </section>
-      </footer>
-     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseThree">
+            <h3>Costo de envío</h3>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            El costo de envío podrás verlo luego de ingresar tu domicilio y antes de confirmar el pago. Este se calcula
+            en base a los productos elegidos y domicilio de entrega.
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseFour">
+            <h3>Quiero hacer un cambio o devolucíon</h3>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingFour">
+          <div class="accordion-body">
+            Si recibes un producto defectuoso o con fallas de fabricación, comunícate dentro de los 5 días hábiles
+            después de la compra a mundopetsalinas@gmail.com para informar de esto y nos pondremos en contacto con vos
+            para poder solucionar el problema. Pero no se aceptaran cambios de producto por fallas que no sean de
+            fabricación. Por ejemplo, si tu mascota rompe el producto, Mundo pet salinas no se hace cargo de esto y no
+            se considerara esto como falla del producto.
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseFive">
+            <h3>¿Tenemos local?</h3>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingFive">
+          <div class="accordion-body">
+            Por el momento solo vendemos de manera online. Es por esto que ofrecemos muchísima info en la página y fotos
+            reales de cada producto. También podremos asesorarte con la mayor precisión por instagram o WhatsApp.
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseSix">
+            <h3> Horario de atención</h3>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingSix">
+          <div class="accordion-body">
+            Lunes a Vineres 8:00 a.m - 20:00 p.m y Sabados 8:00 a.m - 14:00 p.m
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseSeven">
+            <h3>Contacto</h3>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingSeven">
+          <div class="accordion-body">
+            Escribinos a mundopetsalinas@gmail.com o al whatsapp +54 9 1140638603 y te estaremos respondiendo a la
+            brevedad!
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <img src="../imagenes/preguntas 2.jpg" alt="pregunta gato" class="pregunta-gato" width="350">
+    </section>
+  </main>
+  <footer class="container-fluid">
+    <section class="row">
+      <div class="pie-pagina">
+        <div class="pie-pagina__info">
+          <div class="box">
+            <figure>
+              <a href="../index.html">
+                <img src="../imagenes/logo.png" alt="Logo de mundo pet salinas">
+                <h2>Mundo pet salinas</h2>
+              </a>
+            </figure>
+          </div>
+          <div class="box">
+            <h3>¿NECESITAS AYUDA?</h3>
+            <p>Estamos acá para ayudarte en lo que necesites,no dudes en contactarnos si tenés
+              alguna pregunta o necesitas asistencia.</p>
+            <p class="whatsapp"><img src="../imagenes/whatsApp_logo.png" alt="logo whatsapp">
+              +5491140638603</p>
+            <p class="correo"><img src="../imagenes/gmail _logo.png" alt="logo gmail">
+              mundopetsalinas@gmail.com
+            </p>
+          </div>
+          <div class="box">
+            <h3>SIGUENOS</h3>
+            <div class="red-social">
+              <a href="https://www.linkedin.com/in/erik-salinas-48058824a/" target="_blank"><i
+                  class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/mundo_pet_salinas/" target="_blank"><img
+                  src="../imagenes/instagram_logo.png" alt="logo instagram" width="27"></a>
+              <a href="proximamente.html"><i class="fa-brands fa-square-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="politica-derechos">
+          <p><a href="proximamente.html" class="politica-derechos">
+              &copy; 2022 <b>Mundo pet salinas online</b> - Todos los derechos
+              reservados
+            </a></p>
+        </div>
+        <div>
+          <a href="https://api.whatsapp.com/send?phone=5491140638603" target="_blank"><i
+              class="fa-brands fa-whatsapp"></i></a>
+          <a href="#menu"><i class="bi bi-arrow-up-circle-fill"></i></a>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -12,54 +12,67 @@
     <link rel="stylesheet" href="../css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="..//css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet icon" href="../imagenes/logo.png"> <!--Icono en pestaña  -->
     <title>Productos</title>
+    <meta name="description" content="Productos: Alimentos, Juguetes, Moises, Ropa, Correas, Accesorios, Etc."><!--Descripcion  -->
 </head>
 
 <body id="menu">
     <header class="container-fluid">
         <nav class="navbar navbar-expand-lg">
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-             </button>
-              <a class="logo--pet" href="../index.html"><img src="../imagenes/logo.png" alt="logo de mundo pet salinas" class="me-3"><h1 class="me-3">Mundo pet <br> salinas</h1></a>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="logo--pet" href="../index.html"><img src="../imagenes/logo.png" alt="logo de mundo pet salinas"
+                    class="me-3">
+                <h1 class="me-3">Mundo pet <br> salinas</h1>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li>
-                    <a  aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li >
-                    <a class=" dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Productos
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="productos.html"> Domesticos</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="productos.html">Exoticos</a></li>
-                    </ul>
-                  </li>
-                  <li >
-                    <a  href="preguntas.html">Preguntas</a>
-                  </li>
-                  <li >
-                    <a  href="nosotros.html">Nosotros</a>
-                  </li>
-                  <li >
-                    <a  href="contacto.html">Contacto</a>
-                  </li>
-                  <form class="d-flex" >
-                   <input  type="search" placeholder="Buscar ..." autocomplete="off">
-                   <i class="fa-solid fa-magnifying-glass btn"></i>
-                 </form>
+                    <li>
+                        <a aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a class=" dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="productos.html"> Domesticos</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="productos.html">Exoticos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="preguntas.html">Preguntas</a>
+                    </li>
+                    <li>
+                        <a href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                    <form class="d-flex">
+                        <input type="search" placeholder="Buscar ..." autocomplete="off">
+                        <i class="fa-solid fa-magnifying-glass btn"></i>
+                    </form>
                 </ul>
-              </div>
-          </nav>
-   </header>
+            </div>
+        </nav>
+    </header>
     <main>
         <section class="title-productos">
             <img src="../imagenes/productos-2.jpg" alt="perro con carrito" width="350">
             <h2>PRODUCTOS</h2>
         </section>
         <section class="contenedor">
+
+            <!-- FILTRO SUSPENDIDO HASTA NUEVO AVISO -->
+
             <div class="filtro ">
                 <strong class="mt-5 mb-3">CATEGORÍAS</strong>
                 <ul>
@@ -71,24 +84,24 @@
                     <li><a href="#">Reptiles</a></li>
                 </ul>
                 <hr>
-                 <strong class="mb-3">MARCAS</strong>
-                 <div class="marcas">
+                <strong class="mb-3">MARCAS</strong>
+                <div class="marcas">
                     <div>
                         <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
                         <label for="checkboxMarcas">Dogit <span>(10)</span></label>
                     </div>
-                   <div>
-                     <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
-                     <label for="checkboxMarcas">Royal Canin <span >(2)</span></label>
-                   </div>
-                   <div>
-                     <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
-                     <label for="checkboxMarcas">Kongo <span >(20)</span></label>
-                   </div>
-                   <div>
-                     <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
-                     <label for="checkboxMarcas">Nufood <span>(50)</span></label>
-                   </div>
+                    <div>
+                        <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
+                        <label for="checkboxMarcas">Royal Canin <span>(2)</span></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
+                        <label for="checkboxMarcas">Kongo <span>(20)</span></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
+                        <label for="checkboxMarcas">Nufood <span>(50)</span></label>
+                    </div>
                     <div>
                         <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
                         <label for="checkboxMarcas">Tetra <span>(1)</span></label>
@@ -109,58 +122,58 @@
                         <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
                         <label for="checkboxMarcas">Zootec <span>(15)</span></label>
                     </div>
-                   <div>
-                     <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
-                     <label for="checkboxMarcas">Rescales <span>(11)</span></label>
-                   </div>
-                   <div>
-                     <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
-                     <label for="">Lego <span>(3)</span></label>
-                   </div>
-                   <div>
-                     <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
-                     <label for="checkboxMarcas">Excellent <span>(20)</span></label>
-                   </div>
+                    <div>
+                        <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
+                        <label for="checkboxMarcas">Rescales <span>(11)</span></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
+                        <label for="">Lego <span>(3)</span></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
+                        <label for="checkboxMarcas">Excellent <span>(20)</span></label>
+                    </div>
                     <div>
                         <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
                         <label for="checkboxMarcas">Millex <span>(4)</span></label>
                     </div>
-                  <div>
-                      <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
-                      <label for="checkboxMarcas">Vital Can <span>(10)</span></label>
-                  </div>
-                   <div>
-                     <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
-                     <label for="checkboxMarcas">Tetra <span>(9)</span></label>
-                   </div>
+                    <div>
+                        <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
+                        <label for="checkboxMarcas">Vital Can <span>(10)</span></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
+                        <label for="checkboxMarcas">Tetra <span>(9)</span></label>
+                    </div>
                     <div>
                         <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
                         <label for="">Huesos <span>(12)</span></label>
                     </div>
-                   <div>
-                     <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
-                     <label for="checkboxMarcas">Pedigree <span>(10)</span></label>
-                   </div>
-                   <div>
-                     <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
-                     <label for="checkboxMarcas">Gattos <span>(7)</span></label>
-                   </div>
-                   <div>
-                     <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
-                     <label for="checkboxMarcas">Old Prince <span>(1)</span></label>
-                   </div>
+                    <div>
+                        <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
+                        <label for="checkboxMarcas">Pedigree <span>(10)</span></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
+                        <label for="checkboxMarcas">Gattos <span>(7)</span></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
+                        <label for="checkboxMarcas">Old Prince <span>(1)</span></label>
+                    </div>
                     <div>
                         <input type="checkbox" name="checkboxMarcas" id="checkboxMarcas">
                         <label for="checkboxMarcas">Poopy Pet <span>(10)</span></label>
                     </div>
-                 </div>
-                 <hr>
+                </div>
+                <hr>
             </div>
             <div class="productos">
                 <div class="tarjetas-pro mt-5">
                     <article class="tarjeta">
-                        <img src="../imagenes/moises-dogit-cuddle-redondo-gris.jpg" alt="moises" height="150" width="150"
-                            class="tarjeta__imagen">
+                        <img src="../imagenes/moises-dogit-cuddle-redondo-gris.jpg" alt="moises" height="150"
+                            width="150" class="tarjeta__imagen">
                         <h5 class="ps-3">Dogit</h5>
                         <p class="p-info-product ps-3">Moises Dogit Cuddle<br>Redondo Gris </p>
                         <p class="p-info2">Talle Único</p>
@@ -168,8 +181,8 @@
                         <a href="proximamente.html">COMPRAR</a>
                     </article>
                     <article class="tarjeta">
-                        <img src="../imagenes/royal-canin-mini-puppy.jpg" alt="roya canin mini puppy" height="150" width="170"
-                            class="tarjeta__imagen">
+                        <img src="../imagenes/royal-canin-mini-puppy.jpg" alt="roya canin mini puppy" height="150"
+                            width="170" class="tarjeta__imagen">
                         <h5 class="ps-3">Royal Canini</h5>
                         <p class="p-info-product ps-3">Alimento Royal Canini<br>para Perro Mini Puppy </p>
                         <p class="p-info">10Kg</p>
@@ -177,8 +190,8 @@
                         <a href="proximamente.html">COMPRAR</a>
                     </article>
                     <article class="tarjeta">
-                        <img src="../imagenes/alimento-excellent-kitten-pollo-y-arroz.webp" alt="excellent kitten pollo y arroz" width="150" height="150"
-                            class="tarjeta__imagen">
+                        <img src="../imagenes/alimento-excellent-kitten-pollo-y-arroz.webp"
+                            alt="excellent kitten pollo y arroz" width="150" height="150" class="tarjeta__imagen">
                         <h5 class="ps-3">Excellent</h5>
                         <p class="p-info-product ps-3">Alimento Excellent<br>Kitten pollo y arroz </p>
                         <p class="p-info">1Kg</p>
@@ -195,8 +208,8 @@
                         <a href="proximamente.html">COMPRAR</a>
                     </article>
                     <article class="tarjeta">
-                        <img src="../imagenes/alimento-complete-gato-adulto-1.png"
-                            alt="alimento complete" width="110" height="150" class="tarjeta__imagen">
+                        <img src="../imagenes/alimento-complete-gato-adulto-1.png" alt="alimento complete" width="110"
+                            height="150" class="tarjeta__imagen">
                         <h5 class="ps-3">Excellent</h5>
                         <p class="p-info-product ps-3">Alimento Excellent<br>Pollo y Arroz Adulto</p>
                         <p class="p-info">1,5Kg</p>
@@ -207,7 +220,7 @@
                         <img src="../imagenes/purina-pro-plan-flagship-perros-adult-razas-medianas.webp"
                             alt="pro plan raza mediana" width="150" height="150" class="tarjeta__imagen">
                         <h5 class="ps-3">Proplan</h5>
-                        <p class="p-info-product ps-3">Alimento Pro Plan Perro <br> Adulto Raza Mediana</p>
+                        <p class="p-info-product ps-3">Alimento  Perro  Adulto Raza Mediana</p>
                         <p class="p-info">3Kg</p>
                         <p class="precio ">$3.600,00</p>
                         <a href="proximamente.html">COMPRAR</a>
@@ -215,10 +228,10 @@
                 </div>
                 <div class="tarjetas-pro">
                     <article class="tarjeta">
-                        <img src="../imagenes/alimento-nufood-perro-adulto-mediano-y-grande.webp" alt="nufood alimento adulto" height="150" width="150"
-                            class="tarjeta__imagen">
+                        <img src="../imagenes/alimento-nufood-perro-adulto-mediano-y-grande.webp"
+                            alt="nufood alimento adulto" height="150" width="150" class="tarjeta__imagen">
                         <h5 class="ps-3">Nufood</h5>
-                        <p class="p-info-product ps-3">Alimento Nufood Perro<br>Adulto mediano y Grande</p>
+                        <p class="p-info-product ps-3">Alimento  Perro Adulto mediano y Grande</p>
                         <p class="p-info">15Kg</p>
                         <p class="precio">$6.370,00</p>
                         <a href="proximamente.html">COMPRAR</a>
@@ -235,8 +248,8 @@
                         <a href="proximamente.html">COMPRAR</a>
                     </article>
                     <article class="tarjeta">
-                        <img src="../imagenes/pellets-nutrafin-basix-betta.webp" alt="alimento de bettas" width="150" height="150"
-                            class="tarjeta__imagen">
+                        <img src="../imagenes/pellets-nutrafin-basix-betta.webp" alt="alimento de bettas" width="150"
+                            height="150" class="tarjeta__imagen">
                         <h5 class="ps-3">Nutrafin</h5>
                         <p class="p-info-product ps-3">Pellets Nutrafin Basix<br>Betta</p>
                         <p class="p-info">12Kg</p>
@@ -244,8 +257,8 @@
                         <a href="proximamente.html">COMPRAR</a>
                     </article>
                     <article class="tarjeta">
-                        <img src="../imagenes/alimento-en-escamas-nutrafin-max-peces-tropicales.jpg" alt="alimento tropical" width="150"
-                            height="150" class="tarjeta__imagen">
+                        <img src="../imagenes/alimento-en-escamas-nutrafin-max-peces-tropicales.jpg"
+                            alt="alimento tropical" width="150" height="150" class="tarjeta__imagen">
                         <h5 class="ps-3">Nutrafin</h5>
                         <p class="p-info-product ps-3">Alimento en escamas para Peces tropicales </p>
                         <p class="p-info">19Gr</p>
@@ -253,8 +266,8 @@
                         <a href="proximamente.html">COMPRAR</a>
                     </article>
                     <article class="tarjeta">
-                        <img src="../imagenes/arnes-y-correa-rascals-rojo.webp"
-                            alt="arnes y correa para gato" width="150" height="150" class="tarjeta__imagen">
+                        <img src="../imagenes/arnes-y-correa-rascals-rojo.webp" alt="arnes y correa para gato"
+                            width="150" height="150" class="tarjeta__imagen">
                         <h5 class="ps-3">Nelsoni Ranch</h5>
                         <p class="p-info-product ps-3">Arnes y Correa Rascals<br>Rojo</p>
                         <p class="p-info2">Talle Único</p>
@@ -262,8 +275,8 @@
                         <a href="proximamente.html">COMPRAR</a>
                     </article>
                     <article class="tarjeta">
-                        <img src="../imagenes/mix-para-loros-nelsoni-ranch.webp"
-                            alt="arnes y correa para gato" width="150" height="150" class="tarjeta__imagen">
+                        <img src="../imagenes/mix-para-loros-nelsoni-ranch.webp" alt="arnes y correa para gato"
+                            width="150" height="150" class="tarjeta__imagen">
                         <h5 class="ps-3">Nelsoni Ranch</h5>
                         <p class="p-info-product ps-3">Alimento Para Avex<br>Mix Silvestre</p>
                         <p class="p-info">750Gr</p>
@@ -273,8 +286,8 @@
                 </div>
                 <div class="tarjetas-pro">
                     <article class="tarjeta">
-                        <img src="../imagenes/bebedero-millex-hamster-eco.webp" alt="bebedero roedores" height="150" width="150"
-                            class="tarjeta__imagen">
+                        <img src="../imagenes/bebedero-millex-hamster-eco.webp" alt="bebedero roedores" height="150"
+                            width="150" class="tarjeta__imagen">
                         <h5 class="ps-3">Millex</h5>
                         <p class="p-info-product ps-3">Bebedero Millex<br>Hamster Eco </p>
                         <p class="p-info">250cc</p>
@@ -282,27 +295,27 @@
                         <a href="proximamente.html">COMPRAR</a>
                     </article>
                     <article class="tarjeta">
-                        <img src="../imagenes/alimento-aetra-goldfish-growth-pellets-40g.webp" alt="bebedero roedores" height="150" width="150"
-                            class="tarjeta__imagen">
+                        <img src="../imagenes/alimento-aetra-goldfish-growth-pellets-40g.webp" alt="bebedero roedores"
+                            height="150" width="150" class="tarjeta__imagen">
                         <h5 class="ps-3">Tetra</h5>
                         <p class="p-info-product ps-3">Alimento Tetra<br>goldfish growth</p>
                         <p class="p-info">40Gc</p>
                         <p class="precio">$740,00</p>
                         <a href="proximamente.html">COMPRAR</a>
                     </article>
-                   
+
                     <article class="tarjeta">
-                        <img src="../imagenes/alimento-proplan-para-gato-adulto-pollo-y-arroz.png" alt="royal canin" width="150" height="150"
-                            class="tarjeta__imagen">
+                        <img src="../imagenes/alimento-proplan-para-gato-adulto-pollo-y-arroz.png" alt="royal canin"
+                            width="150" height="150" class="tarjeta__imagen">
                         <h5 class="ps-3">Proplan</h5>
-                        <p class="p-info-product ps-3">Alimento Pro Plan para<br>Gato adulto Pollo y Arroz</p>
+                        <p class="p-info-product ps-3">Alimento  para Gato adulto Pollo y Arroz</p>
                         <p class="p-info">15Kg</p>
                         <p class="precio ">$18.920,00</p>
                         <a href="proximamente.html">COMPRAR</a>
                     </article>
                     <article class="tarjeta">
                         <img src="../imagenes/pelota-dental-puppis-con-soga-azul.webp" alt="juguete puppys" width="150"
-                        height="150" class="tarjeta__imagen">
+                            height="150" class="tarjeta__imagen">
                         <h5 class="ps-3">Puppis</h5>
                         <p class="p-info-product ps-3">Pelota Dental puppys con soga azul</p>
                         <p class="p-info2">Talle Único</p>
@@ -311,7 +324,7 @@
                     </article>
                     <article class="tarjeta">
                         <img src="../imagenes/tetra-pond-sticks.png" alt="alimento tetra" width="150" height="150"
-                        class="tarjeta__imagen">
+                            class="tarjeta__imagen">
                         <h5 class="ps-3">Nelsoni Ranch</h5>
                         <p class="p-info-product ps-3">Mix para Loros<br>Nelsoni Ranch</p>
                         <p class="p-info">100Gr</p>
@@ -319,8 +332,8 @@
                         <a href="proximamente.html">COMPRAR</a>
                     </article>
                     <article class="tarjeta">
-                        <img src="../imagenes/excellent-pollo-y-arroz-perro.webp" alt="alimento tetra" width="150" height="150"
-                        class="tarjeta__imagen">
+                        <img src="../imagenes/excellent-pollo-y-arroz-perro.webp" alt="alimento tetra" width="150"
+                            height="150" class="tarjeta__imagen">
                         <h5 class="ps-3">Excellent</h5>
                         <p class="p-info-product ps-3">Alimento Excellent Pollo y Arroz Adulto</p>
                         <p class="p-info">15Kg</p>
@@ -366,10 +379,11 @@
                     <div class="box">
                         <h3>SIGUENOS</h3>
                         <div class="red-social">
-                            <a href="https://www.linkedin.com/in/erik-salinas-48058824a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/mundo_pet_salinas/" target="_blank"><img src="../imagenes/instagram_logo.png" alt="logo instagram"
-                                    width="27"></a>
-                            <a href="proximamente.html" ><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/erik-salinas-48058824a/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/mundo_pet_salinas/" target="_blank"><img
+                                    src="../imagenes/instagram_logo.png" alt="logo instagram" width="27"></a>
+                            <a href="proximamente.html"><i class="fa-brands fa-square-facebook"></i></a>
                         </div>
                     </div>
                 </div>

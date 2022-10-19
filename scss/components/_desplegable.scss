@@ -1,0 +1,67 @@
+//ARCHIVOS DE DESPLEGABLES
+
+
+/* ---MENU DESPLEGABLE--- */
+.dropdown-menu {
+    background-color:map-get($background-color , "menu" );
+
+
+    & a {
+        color: map-get($colors, "menu" );
+        position: relative;
+        right: 83px;
+        bottom: 40px;
+    }
+
+    & a:hover {
+        background-color: #eeba49e0;
+        color: white;
+    }
+}
+
+.dropdown-divider {
+    background-color: white;
+    position: relative;
+    right: 43px;
+    bottom: 40px;
+    border-width: 2px;
+}
+ //Responsive
+ li .dropdown-menu {
+    @include celular {
+        background-color: #6DA0E2;
+        margin-left: 60px;
+        margin-right: 80px;
+
+    }
+}
+
+.dropdown-item {
+    @include celular {
+        position: relative;
+    }
+}
+
+.dropdown-menu a:hover {
+    @include celular {
+        background-color: #6DA0E2;
+        color: white;
+    }
+}
+
+.dropdown-menu a {
+    @include celular {
+        font-size: 1rem;
+        position: relative;
+        right: 60px;
+        bottom: 2px;
+    }
+}
+
+.dropdown-divider {
+    @include celular {
+        position: relative;
+        right: 20px;
+        bottom: 5px;
+    }
+}

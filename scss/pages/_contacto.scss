@@ -1,0 +1,112 @@
+//EN ESTE ARCHIVO SE INCORPORA EL @MEDIA
+/* CONTACTO */
+.contacto {
+    width: 600px;
+    margin-left: 55em;
+    margin-top: 5em;
+  }
+  textarea {
+    width: 550px;
+    height: 150px;
+    resize: none;
+  }
+  .contacto-img {
+    position: absolute;
+    top: 20em;
+  }
+  .contato-img-2 {
+    margin-left: 70em;
+    position: absolute;
+    top: 55.30em;
+  }
+  
+.mapa {
+  display: block;
+  margin: auto;
+}
+
+//Responsive
+.contacto {
+  @include celular {
+      width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+.contacto label {
+  @include celular {
+      font-size: 0.7rem;
+      position: relative;
+      bottom: 17px;
+  }
+}
+.contacto input {
+  @include celular {
+      margin-top: -20px;
+      height: 25px;
+  }
+}
+.novedades {
+  @include celular {
+      position: relative;
+      top: -6px;
+  }
+}
+.contacto button {
+  @include celular {
+      font-size: 0.7rem;
+  }
+}
+textarea {
+  @include celular {
+      height: 90px;
+      resize: none;
+      margin-top: -20px;
+  }
+}
+//Buscador
+::placeholder { 
+  @include celular {
+      font-size: 0.7rem;
+  }
+}
+.botones button {
+  @include celular {
+      border-radius: 5px;
+      border: white 1px solid;
+      width: 51px;
+      height: 30px;
+      background-color: white;
+      color: black;
+  }
+}
+.botones button:hover {
+  @include celular {
+      border: none;
+      width: 51px;
+      height: 30px;
+      background-color: white;
+      color: black;
+  }
+}
+.mapa {
+  @include celular {
+      width: 80%;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+  }
+}
+
+.contacto-img {
+  @include celular {
+      display: none;
+  }
+}
+
+.contato-img-2 {
+  @include celular {
+      display: none;
+  }
+}
