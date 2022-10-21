@@ -897,87 +897,43 @@ textarea {
   width: 50em;
   background-color: #EEBA49;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
-.tarjetas-bancos {
-  display: block;
-  margin: auto;
+@media screen and (max-width: 720px) {
+  .accordion {
+    width: 80%;
+  }
 }
 
-.title-productos {
-  display: flex;
-  flex-direction: row;
-}
-.title-productos img {
-  margin-left: 50px;
+@media screen and (max-width: 720px) {
+  .tarjetas-bancos {
+    width: 100%;
+  }
 }
 
-.contenedor {
-  display: grid;
-  grid-template-columns: 14vw auto;
-  grid-template-rows: 80em auto;
-}
-
-.filtro {
-  background-color: #6DA0E2;
-}
-.filtro strong {
-  display: inline-block;
-  margin-left: 30px;
-}
-.filtro hr {
-  color: white;
-  width: 150px;
-  display: block;
-  margin: auto;
-}
-
-.marcas input {
-  display: inline-block;
-  margin-left: 30px;
-}
-
-.marcas span {
-  color: white;
-}
-
-.productos {
+/* PREGUNTAS */
+.accordion {
+  width: 50em;
   background-color: #EEBA49;
-}
-.productos .tarjetas-pro {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 30px;
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
-.paginacion ul {
-  text-align: center;
+@media screen and (max-width: 720px) {
+  .accordion {
+    width: 80%;
+  }
 }
-.paginacion ul li {
-  display: inline-block;
-  margin-right: 10px;
-  margin-top: 10px;
-}
-.paginacion ul a {
-  display: block;
-  margin-top: 20px;
-  padding: 5px 15px;
-  font-size: 1.2rem;
-  background-color: rgba(255, 153, 0, 0.4470588235);
-  color: black;
-}
-.paginacion ul a:hover {
-  background-color: #6DA0E2;
-  color: white;
-}
-.paginacion ul li .active {
-  background-color: #6DA0E2;
-  color: white;
+
+@media screen and (max-width: 720px) {
+  .tarjetas-bancos {
+    width: 100%;
+  }
 }
 
 .proximamente img {
@@ -993,23 +949,22 @@ textarea {
   }
 }
 
-.fondo-portada {
+.fondo-color {
   background-color: #EEBA49;
 }
-.fondo-portada img {
-  width: 145vh;
-  display: block;
+
+.carousel {
+  width: 80%;
   margin: auto;
 }
 
 .barra {
   background-color: #6DA0E2;
-  height: 150px;
 }
 
 .barra__info {
-  display: inline-block;
-  padding-left: 22em;
+  display: grid;
+  justify-items: center;
 }
 
 .bag-check {
@@ -1031,6 +986,7 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .pets img {
   width: 160px;
@@ -1077,6 +1033,28 @@ textarea {
 .categoria__resultado img, .categoria--dos__resultado img {
   width: 400px;
   height: 250px;
+}
+
+@media screen and (max-width: 720px) {
+  .barra__info {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .bag-check, .bi-currency-dollar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .pets img {
+    width: 120px;
+    height: 120px;
+  }
+  .pets img:hover {
+    transform: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
