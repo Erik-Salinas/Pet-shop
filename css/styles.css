@@ -10,6 +10,12 @@
   top: 29em;
 }
 
+@media screen and (max-width: 720px) {
+  .pregunta-perro, .pregunta-gato {
+    display: none;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -203,6 +209,7 @@ button h3 {
   font-weight: 400;
   color: black;
   font-size: 1rem;
+  list-style: none;
 }
 
 .retiros-envios {
@@ -273,8 +280,23 @@ button h3 {
 }
 
 @media screen and (max-width: 720px) {
+  .barra__info h2 {
+    font-size: 1rem;
+  }
+  .barra__info p {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
   .navbar a:hover {
     color: white;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  button h3 {
+    font-size: 1rem;
   }
 }
 
@@ -457,6 +479,16 @@ nav form input {
   }
 }
 
+.carousel-control-prev, .carousel-control-next {
+  margin: auto -60px;
+  padding: auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+}
+
 .tarjeta a {
   color: white;
   background-color: #00ba1f;
@@ -479,14 +511,6 @@ nav form input {
 
 button {
   height: 40px;
-}
-
-button h3 {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 1.2rem;
-  padding-top: 10px;
-  color: black;
 }
 
 .botones button {
@@ -559,6 +583,12 @@ button h3 {
     bottom: 50px;
     left: 10px;
     font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    display: none;
   }
 } /* ---MENU DESPLEGABLE--- */
 .dropdown-menu {

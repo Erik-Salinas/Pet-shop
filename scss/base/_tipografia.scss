@@ -165,6 +165,7 @@ button h3 {
     font-weight: 400;
     color: map-get($colors , "preguntas");
     font-size: 1rem;
+    list-style: none;
 }
 
 .retiros-envios {
@@ -181,26 +182,26 @@ button h3 {
     font-weight: 700;
     margin-top: 100px;
     font-size: 3rem;
-    color: map-get($colors , "productos-title" );
+    color: map-get($colors , "productos-title");
     margin-left: 6em;
 }
 
 .filtro strong {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    color: map-get($colors , "productos-title" );
+    color: map-get($colors , "productos-title");
     font-size: 1.2rem;
 }
 
 .filtro a {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    color: map-get($colors , "productos-title" );
+    color: map-get($colors , "productos-title");
 }
 
 /* CONTACTO */
 .contacto {
-    background-color: map-get($background-color, "contacto" );
+    background-color: map-get($background-color, "contacto");
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
@@ -235,10 +236,31 @@ button h3 {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
-//Responsive
 
-.navbar a:hover{
+//Responsive
+//INICIO/BARRA__INFO
+.barra__info {
+    @include celular {
+        & h2 {
+            font-size: 1rem;
+        }
+
+        & p {
+            font-size: 0.7rem;
+        }
+    }
+}
+
+//Menu
+.navbar a:hover {
     @include celular {
         color: white;
+    }
+}
+
+//Preguntas
+button h3 {
+    @include celular {
+        font-size: 1rem;
     }
 }

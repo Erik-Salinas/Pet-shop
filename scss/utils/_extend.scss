@@ -10,3 +10,10 @@
     left: 77em;
     top: 29em;
 }
+
+//Responsive
+.pregunta-perro, .pregunta-gato{
+    @include celular {
+        display: none;
+    }
+}

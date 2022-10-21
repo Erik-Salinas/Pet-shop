@@ -1,5 +1,14 @@
 //ARCHIVOS DE BOTONES
 //INICIO
+//Carrucel
+.carousel-control-prev, .carousel-control-next{
+    margin: auto -60px;
+    padding: auto;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 50px;
+    height: 50px;
+}
 //TARJETA/COMPRA
 .tarjeta a {
     color: white;
@@ -27,13 +36,6 @@ button {
     height: 40px;
 }
 
-button h3 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 1.2rem;
-    padding-top: 10px;
-    color: black;
-}
 
 //CONTACTO
 .botones button {
@@ -92,7 +94,7 @@ button h3 {
 
 //Responsive
 .fa-whatsapp {
-    @include celular() {
+    @include celular {
         width: 40px;
         height: 40px;
         line-height: 40px;
@@ -102,12 +104,18 @@ button h3 {
     }
 }
 .bi-arrow-up-circle-fill {
-    @include celular() {
+    @include celular {
         width: 40px;
         height: 40px;
         line-height: 30px;
         bottom: 50px;
         left: 10px;
         font-size: 40px;
+    }
+}
+//Portada 
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    @include celular{
+    display: none;
     }
 }
