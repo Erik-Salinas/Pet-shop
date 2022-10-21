@@ -10,6 +10,12 @@
   top: 29em;
 }
 
+@media screen and (max-width: 720px) {
+  .pregunta-perro, .pregunta-gato {
+    display: none;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -203,6 +209,7 @@ button h3 {
   font-weight: 400;
   color: black;
   font-size: 1rem;
+  list-style: none;
 }
 
 .retiros-envios {
@@ -272,9 +279,22 @@ button h3 {
   font-weight: 400;
 }
 
+.barra__info h2 {
+  font-size: 1rem;
+}
+.barra__info p {
+  font-size: 0.7rem;
+}
+
 @media screen and (max-width: 720px) {
   .navbar a:hover {
     color: white;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  button h3 {
+    font-size: 1rem;
   }
 }
 
@@ -457,6 +477,16 @@ nav form input {
   }
 }
 
+.carousel-control-prev, .carousel-control-next {
+  margin: auto -60px;
+  padding: auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+}
+
 .tarjeta a {
   color: white;
   background-color: #00ba1f;
@@ -479,14 +509,6 @@ nav form input {
 
 button {
   height: 40px;
-}
-
-button h3 {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 1.2rem;
-  padding-top: 10px;
-  color: black;
 }
 
 .botones button {
@@ -540,182 +562,7 @@ button h3 {
   z-index: 100;
 }
 
-<<<<<<< HEAD
-
-/* PROXIMAMENTE */
-
-.proximamente img {
-  width: 800px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* CELULAR */
-@media screen and (max-width:720px) {
-
-  /*---HEADER---*/
-    /*---MENU---*/
-    nav ul {
-      background-color: #EEBA49;
-      border-radius: 5px;
-      padding-bottom: 20px;
-      padding-right:10px;
-  }
-  nav ul li {
-      text-align: center;
-      position: relative;
-      left: 20px;
-      top: 5px;
-      margin: 10px 0px;
-  }
-  /*---BUSCADOR---*/
-  nav form input{
-      position: relative;
-      left: 1em;
-      top: 10px;   
-      padding-right: 40px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-  }
-  .fa-magnifying-glass{
-      display: none;
-  }
- .dropdown-menu {
-      background-color: #6DA0E2;
-      margin-left: 60px;
-      margin-right: 80px;
-  }
- .dropdown-item{
-  position: relative;
- }
-  .dropdown-menu a {
-      font-size: 1rem;
-      position: relative;
-      right: 60px;
-      bottom: 2px;
-  }
-  .dropdown-menu a:hover {
-    background-color: #6DA0E2;
-    color: white;
-}
-
-  .dropdown-divider { 
-      position: relative;
-      right: 20px;
-      bottom: 5px;
-  }
-  .navbar-toggler {
-      background-color: white;
-      margin-bottom: 60px;
-      font-size: 15px;
-  }
-  .logo--pet {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-  }
-  /*---NOSOTROS---*/
- 
-  .nosotros img {
-    width: 100%;
-    float: none;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-  }
-  
-  .nosotros p {
-    text-align: center;
-    font-size: 1.2rem;
-    margin-left: 10px;
-    margin-top: 20px;
-  }
-/*---CONTACTO---*/
-
-.contacto {
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.contacto label{
-  font-size: 0.7rem;
-  position: relative;
-  bottom: 17px;
-}
-.contacto input{
-  margin-top: -20px;
-  height: 25px;
-}
- .novedades{
-  position: relative;
-  top:-6px;
-}
-
-.contacto button{
-  font-size: 0.7rem;
-}
-textarea {
-  height: 90px;
-  resize: none;
-  margin-top: -20px;
-}
-
-::placeholder{
-  font-size: 0.7rem;
-}
-
-.botones button {
-  border-radius: 5px;
-  border: white 1px solid;
-  width: 51px;
-  height: 30px;
-  background-color: white;
-  color: black;
-}
-
-.botones button:hover {
-  border: #6da0e2de 1px solid;
-  width: 51px;
-  height: 30px;
-  background-color: #6DA0E2;
-  color: white;
-}
-
-
-
-
-.contacto-img {
-  display: none;
-}
-.contato-img-2 {
-  display: none;
-}
-
-.mapa {
-  width: 80%;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-/*---PROXIMAMENTE---*/
-.proximamente img {
-  width: 100%;
-}
-  /*---FOOTER---*/
- 
-  .pie-pagina .pie-pagina__info {
-    width: 90%;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 30px;
-    padding: 35px 0px;
-  }
-
-=======
 @media screen and (max-width: 720px) {
->>>>>>> erik
   .fa-whatsapp {
     width: 40px;
     height: 40px;
@@ -734,6 +581,12 @@ textarea {
     bottom: 50px;
     left: 10px;
     font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    display: none;
   }
 } /* ---MENU DESPLEGABLE--- */
 .dropdown-menu {
@@ -1042,15 +895,21 @@ textarea {
   width: 50em;
   background-color: #EEBA49;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
-.tarjetas-bancos {
-  display: block;
-  margin: auto;
+@media screen and (max-width: 720px) {
+  .accordion {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .tarjetas-bancos {
+    width: 100%;
+  }
 }
 
 .title-productos {
@@ -1138,23 +997,22 @@ textarea {
   }
 }
 
-.fondo-portada {
+.fondo-color {
   background-color: #EEBA49;
 }
-.fondo-portada img {
-  width: 145vh;
-  display: block;
+
+.carousel {
+  width: 80%;
   margin: auto;
 }
 
 .barra {
   background-color: #6DA0E2;
-  height: 150px;
 }
 
 .barra__info {
-  display: inline-block;
-  padding-left: 22em;
+  display: grid;
+  justify-items: center;
 }
 
 .bag-check {
@@ -1176,6 +1034,7 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .pets img {
   width: 160px;
@@ -1222,6 +1081,28 @@ textarea {
 .categoria__resultado img, .categoria--dos__resultado img {
   width: 400px;
   height: 250px;
+}
+
+@media screen and (max-width: 720px) {
+  .barra__info {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .bag-check, .bi-currency-dollar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .pets img {
+    width: 120px;
+    height: 120px;
+  }
+  .pets img:hover {
+    transform: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

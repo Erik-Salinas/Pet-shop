@@ -165,6 +165,7 @@ button h3 {
     font-weight: 400;
     color: map-get($colors , "preguntas");
     font-size: 1rem;
+    list-style: none;
 }
 
 .retiros-envios {
@@ -236,9 +237,27 @@ button h3 {
     font-weight: 400;
 }
 //Responsive
+//INICIO/BARRA__INFO
+.barra__info {
 
+    & h2 {
+        font-size: 1rem;
+    }
+
+    & p {
+        font-size: 0.7rem;
+    }
+}
+//Menu
 .navbar a:hover{
     @include celular {
         color: white;
     }
 }
+//Preguntas
+button h3 {
+    @include celular{
+    font-size: 1rem;
+    }
+}
+

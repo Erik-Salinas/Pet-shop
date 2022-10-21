@@ -5,13 +5,21 @@
     width: 50em;
     background-color:map-get($background-color , "fondo-main" );
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     margin-top: 60px;
     margin-bottom: 60px;
 }
 
+
+//Responsive
+.accordion{
+    @include celular {
+        width: 80%;
+    }
+}
+
 .tarjetas-bancos {
-    display: block;
-    margin: auto;
+    @include celular{
+        width: 100%;
+    }
 }
