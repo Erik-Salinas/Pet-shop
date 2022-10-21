@@ -849,8 +849,7 @@ textarea {
   .mapa {
     width: 80%;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
   }
 }
 
@@ -904,7 +903,7 @@ textarea {
 
 @media screen and (max-width: 720px) {
   .accordion {
-    width: 80%;
+    width: 95%;
   }
 }
 
@@ -914,26 +913,76 @@ textarea {
   }
 }
 
-/* PREGUNTAS */
-.accordion {
-  width: 50em;
-  background-color: #EEBA49;
+.title-productos {
+  display: flex;
+  flex-direction: row;
+}
+.title-productos img {
+  margin-left: 50px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 14vw auto;
+  grid-template-rows: 80em auto;
+}
+
+.filtro {
+  background-color: #6DA0E2;
+}
+.filtro strong {
+  display: inline-block;
+  margin-left: 30px;
+}
+.filtro hr {
+  color: white;
+  width: 150px;
   display: block;
   margin: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
 }
 
-@media screen and (max-width: 720px) {
-  .accordion {
-    width: 80%;
-  }
+.marcas input {
+  display: inline-block;
+  margin-left: 30px;
 }
 
-@media screen and (max-width: 720px) {
-  .tarjetas-bancos {
-    width: 100%;
-  }
+.marcas span {
+  color: white;
+}
+
+.productos {
+  background-color: #EEBA49;
+}
+.productos .tarjetas-pro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.paginacion ul {
+  text-align: center;
+}
+.paginacion ul li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.paginacion ul a {
+  display: block;
+  margin-top: 20px;
+  padding: 5px 15px;
+  font-size: 1.2rem;
+  background-color: rgba(255, 153, 0, 0.4470588235);
+  color: black;
+}
+.paginacion ul a:hover {
+  background-color: #6DA0E2;
+  color: white;
+}
+.paginacion ul li .active {
+  background-color: #6DA0E2;
+  color: white;
 }
 
 .proximamente img {
