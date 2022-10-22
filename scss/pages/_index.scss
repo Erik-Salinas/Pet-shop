@@ -18,7 +18,7 @@
     justify-items:center;
 }
 
-//ICONOS
+//ICONOS 
 .bag-check {
     width: 70px;
     position: absolute;
@@ -69,7 +69,7 @@
 /* PRODUCTOS DESTACADOS */
 .p-destacado {
     background-color:map-get($background-color , "fondo-main" );
-    height: 60vh;
+   
 }
 
 /*---CATEGORÍA---*/
@@ -78,8 +78,8 @@
 }
 
 .categorias, .categorias--dos {
-    padding-left: 300px;
-    padding-right: 300px;
+   display: flex;
+   justify-content: center;
 }
 
 .categoria__resultado, .categoria--dos__resultado {
@@ -117,6 +117,18 @@
         transform: none;
     }
 }
+}
+.categoria__resultado, .categoria--dos__resultado {
+    display: inline-block;
+    padding: 40px;
+    margin-top: 70px;
+}
+
+.categoria__resultado img, .categoria--dos__resultado img {
+    @include celular{
+    width: 100%;
+    height: 100%;
+    }
 }
 
 

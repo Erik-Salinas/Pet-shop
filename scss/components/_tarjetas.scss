@@ -3,7 +3,8 @@
 /* PRODUCTOS DESTACADOS */
 .tarjetas {
     display: flex;
-    margin-left: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .tarjeta {
@@ -13,6 +14,7 @@
     margin-left: 20px;
 
 }
+
 .tarjeta--dos {
     background-color: map-get($colors , "fondo-tarjetas" );
     width: 23vh;
@@ -21,8 +23,9 @@
 }
 .tarjeta__imagen {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    width: 150px;
+    height: 150px;
 }
 .p-info {
     text-align: center;
@@ -85,4 +88,12 @@
     font-size: 1.5rem;
     text-align: center;
     bottom: 79px;
+}
+
+//Responsive
+.tarjeta__imagen {
+    @include celular{
+    width: 60%;
+    height: 40%;
+    }
 }

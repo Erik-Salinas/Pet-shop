@@ -295,6 +295,20 @@ button h3 {
 }
 
 @media screen and (max-width: 720px) {
+  .categoria-title h6 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .categoria__resultado h6, .categorias--dos h6 {
+    font-size: 1rem;
+    background-color: #EEBA49;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 720px) {
   button h3 {
     font-size: 1rem;
   }
@@ -654,7 +668,8 @@ button {
 /* PRODUCTOS DESTACADOS */
 .tarjetas {
   display: flex;
-  margin-left: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .tarjeta {
@@ -673,8 +688,9 @@ button {
 
 .tarjeta__imagen {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  width: 150px;
+  height: 150px;
 }
 
 .p-info {
@@ -742,6 +758,13 @@ button {
   font-size: 1.5rem;
   text-align: center;
   bottom: 79px;
+}
+
+@media screen and (max-width: 720px) {
+  .tarjeta__imagen {
+    width: 60%;
+    height: 40%;
+  }
 }
 
 /* CONTACTO */
@@ -1060,7 +1083,6 @@ textarea {
 /* PRODUCTOS DESTACADOS */
 .p-destacado {
   background-color: #EEBA49;
-  height: 60vh;
 }
 
 /*---CATEGORÍA---*/
@@ -1069,8 +1091,8 @@ textarea {
 }
 
 .categorias, .categorias--dos {
-  padding-left: 300px;
-  padding-right: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .categoria__resultado, .categoria--dos__resultado {
@@ -1103,6 +1125,19 @@ textarea {
   }
   .pets img:hover {
     transform: none;
+  }
+}
+
+.categoria__resultado, .categoria--dos__resultado {
+  display: inline-block;
+  padding: 40px;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 720px) {
+  .categoria__resultado img, .categoria--dos__resultado img {
+    width: 100%;
+    height: 100%;
   }
 }
 

@@ -255,6 +255,19 @@ button h3 {
         color: white;
     }
 }
+//CATEGORIA
+.categoria-title h6 {
+    @include celular{
+    font-size: 1.6rem;
+    }
+}
+.categoria__resultado h6, .categorias--dos h6 {
+    @include celular {
+    font-size: 1rem;
+    background-color: map-get($background-color , "bloques-categorias");
+    padding: 8px;
+    }
+}
 //Preguntas
 button h3 {
     @include celular{
