@@ -1,21 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-.pregunta-perro, .pregunta-gato {
-  position: absolute;
-  left: 60px;
-}
-
-.pregunta-gato {
-  left: 77em;
-  top: 29em;
-}
-
-@media screen and (max-width: 720px) {
-  .pregunta-perro, .pregunta-gato {
-    display: none;
-  }
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -77,75 +61,39 @@ nav li a {
   color: black;
 }
 
-/* PRODUCTOS DESTACADOS */
-.p-destacado h4 {
+.tarjeta-hija h5 {
   font-family: "Inter", sans-serif;
-  font-weight: 600;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #989A9C;
+}
+
+.info-producto {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.precio {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  text-align: center;
   font-size: 1.5rem;
   color: black;
 }
 
-.tarjeta h5 {
+.tarjeta-hija button {
   font-family: "Inter", sans-serif;
-  font-weight: 300;
-  color: #989A9C;
+  font-weight: 400;
+}
+
+.p-destacado-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  background-color: #EEBA49;
+  color: black;
   font-size: 1rem;
-}
-
-.tarjeta--dos h5 {
-  font-family: "Inter", sans-serif;
-  font-weight: 300;
-  color: #989A9C;
-  font-size: 1rem;
-}
-
-.tarjeta .product {
-  font-family: "Inter", sans-serif;
-  font-weight: 300;
-  font-size: 0.9rem;
-}
-
-.tarjeta--dos,
-.product {
-  font-family: "Inter", sans-serif;
-  font-weight: 300;
-  font-size: 0.9rem;
-}
-
-.p-info-gris {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  text-align: center;
-  font-size: 0.9rem;
-  color: white;
-  background-color: #989A9C;
-}
-
-.p-info-celeste {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  text-align: center;
-  font-size: 0.9rem;
-  color: white;
-  background-color: #39BEDB;
-}
-
-.p-info-rojo {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  text-align: center;
-  font-size: 0.9rem;
-  color: white;
-  background-color: #E26D6D;
-}
-
-.p-info-gris-dos {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  text-align: center;
-  font-size: 0.9rem;
-  color: white;
-  background-color: #989A9C;
 }
 
 .categoria-title h6 {
@@ -220,13 +168,12 @@ button h3 {
   text-decoration: solid 3px red;
 }
 
-.title-productos h2 {
+.producto-title h2 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  margin-top: 100px;
   font-size: 3rem;
   color: black;
-  margin-left: 6em;
+  text-align: center;
 }
 
 .filtro strong {
@@ -279,7 +226,7 @@ button h3 {
   font-weight: 400;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .barra__info h2 {
     font-size: 1rem;
   }
@@ -288,19 +235,25 @@ button h3 {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .navbar a:hover {
     color: white;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
+  .p-destacado-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
   .categoria-title h6 {
     font-size: 1.6rem;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .categoria__resultado h6, .categorias--dos h6 {
     font-size: 1rem;
     background-color: #EEBA49;
@@ -308,9 +261,21 @@ button h3 {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   button h3 {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .producto-title h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .marcas label {
+    display: none;
   }
 }
 
@@ -380,7 +345,7 @@ button h3 {
   font-size: 0.7rem;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .pie-pagina .pie-pagina__info {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
@@ -391,7 +356,6 @@ button h3 {
 
 header {
   background-color: #6DA0E2;
-  width: 100%;
 }
 
 .logo--pet {
@@ -410,33 +374,10 @@ nav li a {
   color: white;
   text-decoration: none;
   font-size: 1.2rem;
-  margin: 0 40px;
+  margin: 0 50px;
 }
-nav ul li {
-  position: relative;
-  left: 20%;
-  top: 40px;
-}
-
-/* BUSCADOR */
-nav form input {
-  border-radius: 40px;
-  height: 35px;
-  border: white;
-  padding-right: 220px;
-  padding-left: 10px;
-  position: relative;
-  right: 24em;
-  bottom: 15px;
-  outline: none;
-}
-
-.fa-magnifying-glass {
-  color: black;
-  position: relative;
-  right: 27em;
-  bottom: 10px;
-  border: white;
+nav li a:hover {
+  color: white;
 }
 
 ::placeholder {
@@ -449,7 +390,7 @@ nav form input {
   margin-right: auto;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .navbar ul {
     background-color: #EEBA49;
     border-radius: 5px;
@@ -457,7 +398,7 @@ nav form input {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .navbar li {
     text-align: center;
     position: relative;
@@ -467,29 +408,11 @@ nav form input {
   }
 }
 
-@media screen and (max-width: 720px) {
-  .fa-magnifying-glass {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .navbar-toggler {
     background-color: white;
     margin-bottom: 60px;
     font-size: 15px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  nav form input {
-    position: relative;
-    left: 1em;
-    top: 10px;
-    padding-right: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -578,7 +501,7 @@ button {
   z-index: 100;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .fa-whatsapp {
     width: 40px;
     height: 40px;
@@ -589,7 +512,7 @@ button {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .bi-arrow-up-circle-fill {
     width: 40px;
     height: 40px;
@@ -600,19 +523,17 @@ button {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .carousel-control-prev-icon, .carousel-control-next-icon {
     display: none;
   }
 } /* ---MENU DESPLEGABLE--- */
 .dropdown-menu {
   background-color: #6DA0E2;
+  margin-bottom: 250px;
 }
 .dropdown-menu a {
   color: white;
-  position: relative;
-  right: 83px;
-  bottom: 40px;
 }
 .dropdown-menu a:hover {
   background-color: rgba(238, 186, 73, 0.8784313725);
@@ -627,7 +548,7 @@ button {
   border-width: 2px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   li .dropdown-menu {
     background-color: #6DA0E2;
     margin-left: 60px;
@@ -635,20 +556,20 @@ button {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .dropdown-item {
     position: relative;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .dropdown-menu a:hover {
     background-color: #6DA0E2;
     color: white;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .dropdown-menu a {
     font-size: 1rem;
     position: relative;
@@ -657,7 +578,7 @@ button {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .dropdown-divider {
     position: relative;
     right: 20px;
@@ -666,111 +587,48 @@ button {
 }
 
 /* PRODUCTOS DESTACADOS */
-.tarjetas {
+.tarjeta-padre {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
-.tarjeta {
+.tarjeta-hija {
+  width: 186px;
   background-color: white;
-  width: 23vh;
-  height: 47vh;
-  margin-left: 20px;
+  border-radius: 8px;
 }
-
-.tarjeta--dos {
-  background-color: white;
-  width: 23vh;
-  height: 47vh;
-  margin-left: 20px;
+.tarjeta-hija:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px rgba(0, 0, 0, 0.273);
 }
-
-.tarjeta__imagen {
+.tarjeta-hija img {
+  width: 60%;
   display: block;
   margin: auto;
-  width: 150px;
-  height: 150px;
+}
+.tarjeta-hija button {
+  background-color: #00ba1f;
+  border: none;
+  border-radius: 3px;
+  display: block;
+  margin: auto;
+}
+.tarjeta-hija a {
+  text-decoration: none;
 }
 
-.p-info {
-  text-align: center;
-  font-size: 0.9rem;
-  color: black;
-  background-color: #39BEDB;
-  margin-left: 120px;
-  padding: 3px;
-  position: relative;
-  right: 60px;
-}
-
-.p-info2 {
-  text-align: center;
-  font-size: 0.9rem;
-  color: black;
-  background-color: #39BEDB;
-  margin-left: 100px;
-  padding: 3px;
-  position: relative;
-  right: 50px;
-}
-
-.p-info-gris {
-  position: relative;
-  right: 117px;
-  bottom: 43px;
-  margin-left: 130px;
-  padding: 3px;
-}
-
-.p-info-celeste {
-  position: relative;
-  right: 63px;
-  margin-left: 130px;
-  padding: 3px;
-}
-
-.p-info-rojo {
-  font-size: 0.9rem;
-  position: relative;
-  bottom: 87px;
-  right: 10px;
-  margin-left: 130px;
-  padding: 3px;
-}
-
-.p-info-gris-dos {
-  position: relative;
-  top: 17px;
-  right: 120px;
-  margin-left: 120px;
-  padding: 3px;
-}
-
-.tarjeta .precio {
-  font-size: 1.5rem;
-  text-align: center;
-  top: 30px;
-}
-
-.precio-transpor {
-  position: relative;
-  font-size: 1.5rem;
-  text-align: center;
-  bottom: 79px;
-}
-
-@media screen and (max-width: 720px) {
-  .tarjeta__imagen {
-    width: 60%;
-    height: 40%;
+@media screen and (max-width: 991px) {
+  .tarjeta-hija:hover {
+    transform: none;
+    box-shadow: none;
   }
 }
 
 /* CONTACTO */
 .contacto {
   width: 600px;
-  margin-left: 55em;
+  margin: auto;
   margin-top: 5em;
 }
 
@@ -780,23 +638,12 @@ textarea {
   resize: none;
 }
 
-.contacto-img {
-  position: absolute;
-  top: 20em;
-}
-
-.contato-img-2 {
-  margin-left: 70em;
-  position: absolute;
-  top: 55.3em;
-}
-
 .mapa {
   display: block;
   margin: auto;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .contacto {
     width: 100%;
     display: block;
@@ -805,7 +652,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .contacto label {
     font-size: 0.7rem;
     position: relative;
@@ -813,27 +660,27 @@ textarea {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .contacto input {
     margin-top: -20px;
     height: 25px;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .novedades {
     position: relative;
     top: -6px;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .contacto button {
     font-size: 0.7rem;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   textarea {
     height: 90px;
     resize: none;
@@ -841,13 +688,13 @@ textarea {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   ::placeholder {
     font-size: 0.7rem;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .botones button {
     border-radius: 5px;
     border: white 1px solid;
@@ -858,7 +705,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .botones button:hover {
     border: none;
     width: 51px;
@@ -868,23 +715,11 @@ textarea {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .mapa {
     width: 80%;
     display: block;
     margin: auto;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .contacto-img {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .contato-img-2 {
-    display: none;
   }
 }
 
@@ -895,7 +730,7 @@ textarea {
   margin-right: 20px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .nosotros img {
     width: 100%;
     float: none;
@@ -905,7 +740,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .nosotros p {
     text-align: center;
     font-size: 1.2rem;
@@ -924,63 +759,16 @@ textarea {
   margin-bottom: 60px;
 }
 
-@media screen and (max-width: 720px) {
+.tarjetas-bancos {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+
+@media screen and (max-width: 991px) {
   .accordion {
     width: 95%;
   }
-}
-
-@media screen and (max-width: 720px) {
-  .tarjetas-bancos {
-    width: 100%;
-  }
-}
-
-.title-productos {
-  display: flex;
-  flex-direction: row;
-}
-.title-productos img {
-  margin-left: 50px;
-}
-
-.contenedor {
-  display: grid;
-  grid-template-columns: 14vw auto;
-  grid-template-rows: 80em auto;
-}
-
-.filtro {
-  background-color: #6DA0E2;
-}
-.filtro strong {
-  display: inline-block;
-  margin-left: 30px;
-}
-.filtro hr {
-  color: white;
-  width: 150px;
-  display: block;
-  margin: auto;
-}
-
-.marcas input {
-  display: inline-block;
-  margin-left: 30px;
-}
-
-.marcas span {
-  color: white;
-}
-
-.productos {
-  background-color: #EEBA49;
-}
-.productos .tarjetas-pro {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 30px;
 }
 
 .paginacion ul {
@@ -1015,7 +803,7 @@ textarea {
   margin-right: auto;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .proximamente img {
     width: 100%;
   }
@@ -1044,13 +832,6 @@ textarea {
   position: absolute;
   left: 15em;
   top: 41em;
-  color: white;
-}
-
-.bi-currency-dollar {
-  font-size: 90px;
-  position: absolute;
-  left: 9.85em;
   color: white;
 }
 
@@ -1106,19 +887,19 @@ textarea {
   height: 250px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .barra__info {
     flex-wrap: wrap;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .bag-check, .bi-currency-dollar {
     display: none;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .pets img {
     width: 120px;
     height: 120px;
@@ -1134,7 +915,7 @@ textarea {
   margin-top: 70px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
   .categoria__resultado img, .categoria--dos__resultado img {
     width: 100%;
     height: 100%;

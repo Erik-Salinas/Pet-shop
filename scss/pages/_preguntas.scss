@@ -9,6 +9,11 @@
     margin-top: 60px;
     margin-bottom: 60px;
 }
+.tarjetas-bancos {
+    display: block;
+    margin: auto;
+        width: 70%;
+}
 
 
 //Responsive
@@ -18,8 +23,3 @@
     }
 }
 
-.tarjetas-bancos {
-    @include celular{
-        width: 100%;
-    }
-}
