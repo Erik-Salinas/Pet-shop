@@ -40,4 +40,4 @@ SOFTWARE.
 
 ##Estado del proyecto
 
-Inactivo.
+Actualmente Inactivo.
