@@ -1,41 +1,43 @@
-//ARCHIVOS DE TARJETAS
-
 /* PRODUCTOS DESTACADOS */
-.tarjeta-padre{
+.tarjeta-padre {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.tarjeta-hija{
+
+.tarjeta-hija {
     width: 186px;
-    background-color: map-get($colors , "fondo-tarjetas" );
+    background-color: map-get($colors , "fondo-tarjetas");
     border-radius: 8px;
 
-    &:hover{
+    &:hover {
         transform: translateY(-5px);
-    box-shadow: 0 12px rgba(0, 0, 0, 0.273);
+        box-shadow: 0 12px rgba(0, 0, 0, 0.273);
     }
-    & img{
+
+    & img {
         width: 60%;
-    display: block;
-    margin: auto;
+        display: block;
+        margin: auto;
     }
-    & button{
-        background-color: map-get($background-color ,"bloques-compra" ) ;
+
+    & button {
+        background-color: map-get($background-color , "bloques-compra");
         border: none;
         border-radius: 3px;
         display: block;
         margin: auto;
     }
-    & a{
+
+    & a {
         text-decoration: none;
     }
 }
 
-//Responsive
-.tarjeta-hija:hover{
-    @include celular{
+//RESPONSIVE
+.tarjeta-hija:hover {
+    @include celular {
         transform: none;
-    box-shadow: none;
+        box-shadow: none;
     }
 }

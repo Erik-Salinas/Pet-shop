@@ -1,15 +1,15 @@
-//VARIABLES
 //INICIO
-$colors:(
-    //Header
+$colors: (
+    //HEADER
     "menu": white,
     "buscador":black,
     "title":white,
 
-    //Main
-    //Portada
+    //MAIN
+    //PORTADA
     "portada-fondo": #EEBA49,
-    //Tarjetas /Nosotros
+
+    //TARJETAS / NOSOTROS
     "subtitle": #F28C30,
     "subtitle-2": white,
     "subtitle-3":black,
@@ -18,45 +18,45 @@ $colors:(
     "bloques-tarjetas":white,
     "fondo-tarjetas":white,
 
-    //Categorías
+    //CATEGORÍAS
     "subtitle-categoria":white,
 
-    //Productos
+    //PRODUCTOS
     "productos-title":black,
 
-    //Preguntas
+    //PREGUNTAS
     "preguntas":black,
 
-    //Contacto
+    //CONTACTO
     "contacto-parrafo":black,
     "contacto-parrafo-hover":white,
 
-    //Pie de pagina
+    //PIE DE PAGINA
     "pie-pagina-title":white,
     "pie-pagina-subtitle":white,
     "pie-pagina-parrafo":black,
 );
 
-$background-color:(
-    //Header
+$background-color: (
+    //HEADER
     "menu": #6DA0E2,
-    
-    //Main
+
+    //MAIN
     "fondo-main": #EEBA49,
-    //Tarjetas
+    //TARJETA
     "bloques-tarjetas":#39BEDB,
     "bloques-tarjetas-2":#989A9C,
     "bloques-tarjetas-3":#E26D6D,
     "bloques-compra":#00ba1f,
 
-    //Categorías
+    //CATEGORÍAS
     "bloques-categorias": #EEBA49,
 
-    //Contacto
+    //CONTACTO
     "contacto":#EEBA49,
     "botones":white,
     "botones-hover":#6DA0E2,
 
-    //Pie de pagina
+    //PIE DE PAGINA
     "pie-pagina":#6DA0E2,
 );

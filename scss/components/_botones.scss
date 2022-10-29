@@ -1,18 +1,20 @@
 //ARCHIVOS DE BOTONES
 //INICIO
-//Carrucel
-.carousel-control-prev, .carousel-control-next{
+//CARRUSEL
+.carousel-control-prev,.carousel-control-next {
     margin: auto -60px;
     padding: auto;
 }
-.carousel-control-prev-icon, .carousel-control-next-icon{
+
+.carousel-control-prev-icon,.carousel-control-next-icon {
     width: 50px;
     height: 50px;
 }
+
 //TARJETA/COMPRA
 .tarjeta a {
     color: white;
-    background-color:map-get($background-color , "bloques-compra");
+    background-color: map-get($background-color , "bloques-compra");
     padding: 5px;
     font-size: 0.8rem;
     margin: 7em;
@@ -23,7 +25,7 @@
 
 .tarjeta--dos a {
     color: white;
-    background-color:map-get($background-color , "bloques-compra");
+    background-color: map-get($background-color , "bloques-compra");
     padding: 5px;
     font-size: 0.8rem;
     position: relative;
@@ -36,18 +38,17 @@ button {
     height: 40px;
 }
 
-
 //CONTACTO
 .botones button {
     border-radius: 5px;
-    border: map-get($background-color , "botones")  1px solid;
+    border: map-get($background-color , "botones") 1px solid;
     width: 80px;
     height: 30px;
     background-color: map-get($background-color , "botones");
     color: map-get($colors , "contacto-parrafo");
 
     &:hover {
-        border: map-get($background-color , "botones-hover")  1px solid;
+        border: map-get($background-color , "botones-hover") 1px solid;
         width: 80px;
         height: 30px;
         background-color: map-get($background-color , "botones-hover");
@@ -92,7 +93,7 @@ button {
     z-index: 100;
 }
 
-//Responsive
+//RESPONSIVE
 .fa-whatsapp {
     @include celular {
         width: 40px;
@@ -103,6 +104,7 @@ button {
         font-size: 30px;
     }
 }
+
 .bi-arrow-up-circle-fill {
     @include celular {
         width: 40px;
@@ -113,9 +115,10 @@ button {
         font-size: 40px;
     }
 }
+
 //Portada 
-.carousel-control-prev-icon, .carousel-control-next-icon{
-    @include celular{
-    display: none;
+.carousel-control-prev-icon,.carousel-control-next-icon {
+    @include celular {
+        display: none;
     }
 }

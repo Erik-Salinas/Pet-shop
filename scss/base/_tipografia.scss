@@ -27,37 +27,39 @@
     color: map-get($colors , "subtitle-3");
 }
 
-.tarjeta-hija h5{
+.tarjeta-hija h5 {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 1.1rem;
     color: map-get($colors , "titles-tarjetas");
 }
-.info-producto{
+
+.info-producto {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    color: map-get($colors , "productos-title" );
+    color: map-get($colors , "productos-title");
     font-size: 0.9rem;
 }
 
-.precio{
+.precio {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     text-align: center;
     font-size: 1.5rem;
-    color: map-get($colors , "productos-title" );
+    color: map-get($colors , "productos-title");
 }
 
-.tarjeta-hija button{
+.tarjeta-hija button {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
+
 //PRODUCTOS DESTACADOS
-.p-destacado-title{
+.p-destacado-title {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    background-color:map-get($background-color , "fondo-main" );
-    color: map-get($colors , "productos-title" );
+    background-color: map-get($background-color , "fondo-main");
+    color: map-get($colors , "productos-title");
     font-size: 1rem;
 }
 
@@ -141,26 +143,26 @@ button h3 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 3rem;
-    color: map-get($colors , "productos-title" );
+    color: map-get($colors , "productos-title");
     text-align: center;
 }
 
 .filtro strong {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    color: map-get($colors , "productos-title" );
+    color: map-get($colors , "productos-title");
     font-size: 1.2rem;
 }
 
 .filtro a {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    color: map-get($colors , "productos-title" );
+    color: map-get($colors , "productos-title");
 }
 
 /* CONTACTO */
 .contacto {
-    background-color: map-get($background-color, "contacto" );
+    background-color: map-get($background-color, "contacto");
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
@@ -195,60 +197,66 @@ button h3 {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
-//Responsive
+
+//RESPONSIVE
 //INICIO/BARRA__INFO
 .barra__info {
-@include celular {
-    & h2 {
-        font-size: 1rem;
-    }
+    @include celular {
+        & h2 {
+            font-size: 1rem;
+        }
 
-    & p {
-        font-size: 0.7rem;
+        & p {
+            font-size: 0.7rem;
+        }
     }
 }
-}
-//Menu
-.navbar a:hover{
+
+//MENU
+.navbar a:hover {
     @include celular {
         color: white;
     }
 }
+
 //PRODUCTOS DESTACADOS
-.p-destacado-title{
-    @include celular{
-      text-align: center;
+.p-destacado-title {
+    @include celular {
+        text-align: center;
     }
 }
+
 //CATEGORIA
 .categoria-title h6 {
-    @include celular{
-    font-size: 1.6rem;
-    }
-}
-.categoria__resultado h6, .categorias--dos h6 {
     @include celular {
-    font-size: 1rem;
-    background-color: map-get($background-color , "bloques-categorias");
-    padding: 8px;
+        font-size: 1.6rem;
     }
 }
-//Preguntas
+
+.categoria__resultado h6,.categorias--dos h6 {
+    @include celular {
+        font-size: 1rem;
+        background-color: map-get($background-color , "bloques-categorias");
+        padding: 8px;
+    }
+}
+
+//PREGUNTAS
 button h3 {
-    @include celular{
-    font-size: 1rem;
+    @include celular {
+        font-size: 1rem;
     }
 }
 
 //Productos
 .producto-title h2 {
     @include celular {
-    font-size: 1.6rem;
-    }
-}
-.marcas label{
-    @include celular{
-        display: none;
+        font-size: 1.6rem;
     }
 }
 
+.marcas label {
+    @include celular {
+        display: none;
+    }
+}

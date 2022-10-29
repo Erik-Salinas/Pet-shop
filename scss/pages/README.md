@@ -1,1 +1,0 @@
-En la carpeta pages van los archivos de las paginas  para hacelos responsive, tambien se pueden en las otras carpteas (celular,table,netbook,computadora)

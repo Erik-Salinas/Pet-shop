@@ -1,5 +1,3 @@
-//EN ESTE ARCHIVO SE INCORPORA EL @MEDIA
-
 //PROXIMAMENTE
 .proximamente img {
     width: 800px;
@@ -8,7 +6,7 @@
     margin-right: auto;
 }
 
-//Responsive
+//RESPONSIVE
 .proximamente img {
     @include celular() {
         width: 100%;

@@ -1,21 +1,22 @@
-//EN ESTE ARCHIVO SE INCORPORA EL @MEDIA
 //INICIO
-.fondo-color{
-    background-color:map-get($colors , "portada-fondo" );
+.fondo-color {
+    background-color: map-get($colors , "portada-fondo");
 }
-.carousel{
+
+.carousel {
     width: 80%;
+    display: block;
     margin: auto;
 }
 
-//---INFORMACION PRINCIPAL---
+//INFORMACION PRINCIPAL
 .barra {
-    background-color:map-get($background-color , "menu" );
+    background-color: map-get($background-color , "menu");
 }
 
 .barra__info {
     display: grid;
-    justify-items:center;
+    justify-items: center;
 }
 
 //ICONOS 
@@ -29,7 +30,7 @@
 
 
 
-//---MASCOTAS/PERFILES---
+//MASCOTAS/PERFILES
 .pets {
     display: flex;
     flex-direction: row;
@@ -61,69 +62,70 @@
     }
 }
 
-/* PRODUCTOS DESTACADOS */
+//PRODUCTOS DESTACADOS 
 .p-destacado {
-    background-color:map-get($background-color , "fondo-main" );
-   
+    background-color: map-get($background-color , "fondo-main");
+
 }
 
-/*---CATEGORÍA---*/
+//CATEGORÍA
 .categoria-title h6 {
     padding-top: 50px;
 }
 
-.categorias, .categorias--dos {
-   display: flex;
-   justify-content: center;
+.categorias,.categorias--dos {
+    display: flex;
+    justify-content: center;
 }
 
-.categoria__resultado, .categoria--dos__resultado {
+.categoria__resultado,.categoria--dos__resultado {
     display: inline-block;
     padding: 40px;
     margin-top: 70px;
 }
 
-.categoria__resultado img, .categoria--dos__resultado img {
+.categoria__resultado img,.categoria--dos__resultado img {
     width: 400px;
     height: 250px;
 }
 
-//Responsive
+//RESPONSIVE
 .barra__info {
-    @include celular{
+    @include celular {
         flex-wrap: wrap;
     }
-   
+
 }
+
 .bag-check,.bi-currency-dollar {
-    @include celular{
+    @include celular {
         display: none;
     }
-    
-}
-.pets {
-    @include celular{
-    & img {
-        width: 120px;
-        height: 120px;
-    }
 
-    & img:hover {
-        transform: none;
+}
+
+.pets {
+    @include celular {
+        & img {
+            width: 120px;
+            height: 120px;
+        }
+
+        & img:hover {
+            transform: none;
+        }
     }
 }
-}
-.categoria__resultado, .categoria--dos__resultado {
+
+.categoria__resultado,.categoria--dos__resultado {
     display: inline-block;
     padding: 40px;
     margin-top: 70px;
 }
 
-.categoria__resultado img, .categoria--dos__resultado img {
-    @include celular{
-    width: 100%;
-    height: 100%;
+.categoria__resultado img,.categoria--dos__resultado img {
+    @include celular {
+        width: 100%;
+        height: 100%;
     }
 }
-
-

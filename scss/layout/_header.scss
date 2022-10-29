@@ -1,6 +1,6 @@
 //MENU
 header {
-    background-color: map-get($background-color , "menu");  
+    background-color: map-get($background-color , "menu");
 }
 
 .logo--pet {
@@ -17,31 +17,26 @@ header {
     }
 }
 
-
 nav {
     li {
         a {
-             color: map-get($colors , "menu");
-             text-decoration: none;
-             font-size: 1.2rem;
-             margin: 0 50px;
+            color: map-get($colors , "menu");
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin: 0 50px;
 
-             &:hover{
+            &:hover {
                 color: map-get($colors , "menu");
-             }
+            }
         }
     }
 }
-
-
 
 ::placeholder {
     color: map-get($colors , "buscador");
 }
 
-
-
-//Responsive
+//RESPONSIVE
 
 .logo--pet {
     display: block;
@@ -74,4 +69,3 @@ nav {
         font-size: 15px;
     }
 }
-
