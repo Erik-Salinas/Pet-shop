@@ -1,6 +1,4 @@
-//EN ESTE ARCHIVO SE INCORPORA EL @MEDIA
-
-/* PREGUNTAS */
+//PREGUNTAS 
 .accordion {
     width: 50em;
     background-color:map-get($background-color , "fondo-main" );
@@ -10,6 +8,7 @@
     margin-bottom: 60px;
 }
 
+<<<<<<< HEAD
 
 //Responsive
 .accordion{
@@ -22,4 +21,18 @@
     @include celular{
         width: 100%;
     }
+=======
+.tarjetas-bancos {
+    display: block;
+    margin: auto;
+        width: 70%;
+>>>>>>> erik
 }
+
+//RESPONSIVE
+.accordion{
+    @include celular {
+        width: 95%;
+    }
+}
+

@@ -1,16 +1,10 @@
-//ARCHIVOS DE DESPLEGABLES
-
-
 /* ---MENU DESPLEGABLE--- */
 .dropdown-menu {
-    background-color:map-get($background-color , "menu" );
-
+    background-color: map-get($background-color , "menu");
+    margin-bottom: 250px;
 
     & a {
-        color: map-get($colors, "menu" );
-        position: relative;
-        right: 83px;
-        bottom: 40px;
+        color: map-get($colors, "menu");
     }
 
     & a:hover {
@@ -26,8 +20,9 @@
     bottom: 40px;
     border-width: 2px;
 }
- //Responsive
- li .dropdown-menu {
+
+//RESPONSIVE
+li .dropdown-menu {
     @include celular {
         background-color: #6DA0E2;
         margin-left: 60px;

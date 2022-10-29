@@ -1,57 +1,4 @@
-//EN ESTE ARCHIVO SE INCORPORA EL @MEDIA
-
 //PRODUCTOS
-.title-productos {
-    display: flex;
-    flex-direction: row;
-
-    & img {
-        margin-left: 50px;
-    }
-}
-
-.contenedor {
-    display: grid;
-    grid-template-columns: 14vw auto;
-    grid-template-rows: 80em auto;
-}
-
-//FILTRO 
-.filtro {
-    background-color: #6DA0E2;
-
-    & strong {
-        display: inline-block;
-        margin-left: 30px;
-    }
-
-    & hr {
-        color: white;
-        width: 150px;
-        display: block;
-        margin: auto;
-    }
-}
-
-.marcas input {
-    display: inline-block;
-    margin-left: 30px;
-
-}
-
-.marcas span {
-    color: white;
-}
-
-.productos {
-    background-color:map-get($background-color , "fondo-main" );
-    & .tarjetas-pro {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 30px;
-    }
-}
 
 // BARRA NUMERICA 
 .paginacion ul {
@@ -60,7 +7,7 @@
     & li {
         display: inline-block;
         margin-right: 10px;
-        margin-top:10px ;
+        margin-top: 10px;
     }
 
     & a {
@@ -72,13 +19,14 @@
         color: black;
     }
 
-    & a:hover{
+    & a:hover {
         background-color: #6DA0E2;
-        color: white;  
+        color: white;
     }
 
-    & li .active{
+    & li .active {
         background-color: #6DA0E2;
         color: white;
     }
 }
+

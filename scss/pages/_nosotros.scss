@@ -1,12 +1,11 @@
-//EN ESTE ARCHIVO SE INCORPORA EL @MEDIA
-
+//NOSOTROS
 .nosotros img {
     width: 500px;
     margin-left: 240px;
     float: left;
     margin-right: 20px;
 }
-//Responsive
+//RRESPONSIVE
 .nosotros img {
     @include celular() {
         width: 100%;
@@ -16,6 +15,7 @@
         margin-right: auto;
     }
 }
+
 .nosotros p {
     @include celular() {
         text-align: center;

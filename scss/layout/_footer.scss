@@ -1,7 +1,7 @@
 //PIE DE PAGINA
 .pie-pagina {
     width: 100%;
-    background-color:map-get($background-color , "pie-pagina" );
+    background-color: map-get($background-color , "pie-pagina");
 
     & .pie-pagina__info {
         width: 100%;
@@ -61,17 +61,17 @@
     background-color: white;
 }
 
-.pie-pagina, .politica-derechos {
-    background-color:map-get($background-color , "pie-pagina" );
+.pie-pagina,.politica-derechos {
+    background-color: map-get($background-color , "pie-pagina");
     text-align: center;
     color: #fff;
 }
 
-.pie-pagina, .politica-derechos p {
+.pie-pagina,.politica-derechos p {
     font-size: 0.7rem;
 }
 
-//Responsive
+//RESPONSIVE
 .pie-pagina .pie-pagina__info {
     @include celular() {
         width: 90%;
@@ -80,5 +80,3 @@
         padding: 35px 0px;
     }
 }
-
-

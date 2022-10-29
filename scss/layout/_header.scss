@@ -1,7 +1,6 @@
 //MENU
 header {
     background-color: map-get($background-color , "menu");
-    width: 100%;
 }
 
 .logo--pet {
@@ -24,51 +23,20 @@ nav {
             color: map-get($colors , "menu");
             text-decoration: none;
             font-size: 1.2rem;
-            margin: 0 40px;
+            margin: 0 50px;
+
+            &:hover {
+                color: map-get($colors , "menu");
+            }
         }
     }
-
-    & ul {
-        li {
-            position: relative;
-            left: 20%;
-            top: 40px;
-        }
-    }
-}
-
-
-/* BUSCADOR */
-nav {
-    form {
-        input {
-            border-radius: 40px;
-            height: 35px;
-            border: white;
-            padding-right: 220px;
-            padding-left: 10px;
-            position: relative;
-            right: 24em;
-            bottom: 15px;
-            outline: none; //outline es un border que va fuera del bloque y border dentro del bloque. Con outline-offset separa el borde de la caja
-
-        }
-    }
-}
-
-.fa-magnifying-glass {
-    color: black;
-    position: relative;
-    right: 27em;
-    bottom: 10px;
-    border: white;
 }
 
 ::placeholder {
     color: map-get($colors , "buscador");
 }
 
-//Responsive
+//RESPONSIVE
 
 .logo--pet {
     display: block;
@@ -94,30 +62,10 @@ nav {
     }
 }
 
-.fa-magnifying-glass {
-    @include celular {
-        display: none;
-    }
-}
-
-
-
 .navbar-toggler {
     @include celular {
         background-color: white;
         margin-bottom: 60px;
         font-size: 15px;
-    }
-}
-
-nav form input {
-    @include celular {
-        position: relative;
-        left: 1em;
-        top: 10px;
-        padding-right: 40px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
 }

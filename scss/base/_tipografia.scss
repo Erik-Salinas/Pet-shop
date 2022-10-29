@@ -27,78 +27,40 @@
     color: map-get($colors , "subtitle-3");
 }
 
-/* PRODUCTOS DESTACADOS */
-//SUBTITULO
-.p-destacado h4 {
+.tarjeta-hija h5 {
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: map-get($colors , "titles-tarjetas");
+}
+
+.info-producto {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: map-get($colors , "productos-title");
+    font-size: 0.9rem;
+}
+
+.precio {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: center;
     font-size: 1.5rem;
-    color: map-get($colors , "subtitle-3");
+    color: map-get($colors , "productos-title");
 }
 
-//SUBTITULO DE TARJETAS
-.tarjeta h5 {
+.tarjeta-hija button {
     font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    color: map-get($colors , "titles-tarjetas");
+    font-weight: 400;
+}
+
+//PRODUCTOS DESTACADOS
+.p-destacado-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    background-color: map-get($background-color , "fondo-main");
+    color: map-get($colors , "productos-title");
     font-size: 1rem;
-}
-
-.tarjeta--dos h5 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    color: map-get($colors , "titles-tarjetas");
-    font-size: 1rem;
-}
-
-.tarjeta .product {
-    font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    font-size: 0.9rem;
-}
-
-.tarjeta--dos,
-.product {
-    font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    font-size: 0.9rem;
-}
-
-.p-info-gris {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    text-align: center;
-    font-size: 0.9rem;
-    color: map-get($colors , "bloques-tarjetas");
-    background-color: map-get($background-color , "bloques-tarjetas-2");
-
-}
-
-.p-info-celeste {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    text-align: center;
-    font-size: 0.9rem;
-    color: map-get($colors , "bloques-tarjetas");
-    background-color: map-get($background-color , "bloques-tarjetas");
-}
-
-.p-info-rojo {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    text-align: center;
-    font-size: 0.9rem;
-    color: map-get($colors , "bloques-tarjetas");
-    background-color: map-get($background-color , "bloques-tarjetas-3");
-}
-
-.p-info-gris-dos {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    text-align: center;
-    font-size: 0.9rem;
-    color: map-get($colors , "bloques-tarjetas");
-    background-color: map-get($background-color , "bloques-tarjetas-2");
 }
 
 //CATEGORIA
@@ -177,31 +139,30 @@ button h3 {
 }
 
 //PRODCUTOS
-.title-productos h2 {
+.producto-title h2 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    margin-top: 100px;
     font-size: 3rem;
-    color: map-get($colors , "productos-title" );
-    margin-left: 6em;
+    color: map-get($colors , "productos-title");
+    text-align: center;
 }
 
 .filtro strong {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    color: map-get($colors , "productos-title" );
+    color: map-get($colors , "productos-title");
     font-size: 1.2rem;
 }
 
 .filtro a {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    color: map-get($colors , "productos-title" );
+    color: map-get($colors , "productos-title");
 }
 
 /* CONTACTO */
 .contacto {
-    background-color: map-get($background-color, "contacto" );
+    background-color: map-get($background-color, "contacto");
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
@@ -236,6 +197,7 @@ button h3 {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
+<<<<<<< HEAD
 //Responsive
 //INICIO/BARRA__INFO
 .barra__info {
@@ -250,10 +212,30 @@ button h3 {
 }
 //Menu
 .navbar a:hover{
+=======
+
+//RESPONSIVE
+//INICIO/BARRA__INFO
+.barra__info {
+    @include celular {
+        & h2 {
+            font-size: 1rem;
+        }
+
+        & p {
+            font-size: 0.7rem;
+        }
+    }
+}
+
+//MENU
+.navbar a:hover {
+>>>>>>> erik
     @include celular {
         color: white;
     }
 }
+<<<<<<< HEAD
 //Preguntas
 button h3 {
     @include celular{
@@ -261,3 +243,47 @@ button h3 {
     }
 }
 
+=======
+
+//PRODUCTOS DESTACADOS
+.p-destacado-title {
+    @include celular {
+        text-align: center;
+    }
+}
+
+//CATEGORIA
+.categoria-title h6 {
+    @include celular {
+        font-size: 1.6rem;
+    }
+}
+
+.categoria__resultado h6,.categorias--dos h6 {
+    @include celular {
+        font-size: 1rem;
+        background-color: map-get($background-color , "bloques-categorias");
+        padding: 8px;
+    }
+}
+
+//PREGUNTAS
+button h3 {
+    @include celular {
+        font-size: 1rem;
+    }
+}
+
+//Productos
+.producto-title h2 {
+    @include celular {
+        font-size: 1.6rem;
+    }
+}
+
+.marcas label {
+    @include celular {
+        display: none;
+    }
+}
+>>>>>>> erik
