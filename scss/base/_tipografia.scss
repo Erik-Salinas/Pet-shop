@@ -197,22 +197,6 @@ button h3 {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
-<<<<<<< HEAD
-//Responsive
-//INICIO/BARRA__INFO
-.barra__info {
-
-    & h2 {
-        font-size: 1rem;
-    }
-
-    & p {
-        font-size: 0.7rem;
-    }
-}
-//Menu
-.navbar a:hover{
-=======
 
 //RESPONSIVE
 //INICIO/BARRA__INFO
@@ -230,20 +214,10 @@ button h3 {
 
 //MENU
 .navbar a:hover {
->>>>>>> erik
     @include celular {
         color: white;
     }
 }
-<<<<<<< HEAD
-//Preguntas
-button h3 {
-    @include celular{
-    font-size: 1rem;
-    }
-}
-
-=======
 
 //PRODUCTOS DESTACADOS
 .p-destacado-title {
@@ -286,4 +260,3 @@ button h3 {
         display: none;
     }
 }
->>>>>>> erik

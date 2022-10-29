@@ -8,25 +8,10 @@
     margin-bottom: 60px;
 }
 
-<<<<<<< HEAD
-
-//Responsive
-.accordion{
-    @include celular {
-        width: 80%;
-    }
-}
-
-.tarjetas-bancos {
-    @include celular{
-        width: 100%;
-    }
-=======
 .tarjetas-bancos {
     display: block;
     margin: auto;
         width: 70%;
->>>>>>> erik
 }
 
 //RESPONSIVE

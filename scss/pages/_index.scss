@@ -1,15 +1,6 @@
 //INICIO
-<<<<<<< HEAD
-.fondo-color{
-    background-color:map-get($colors , "portada-fondo" );
-}
-.carousel{
-    width: 80%;
-    margin: auto;
-=======
 .fondo-color {
     background-color: map-get($colors , "portada-fondo");
->>>>>>> erik
 }
 
 .carousel {
@@ -20,20 +11,12 @@
 
 //INFORMACION PRINCIPAL
 .barra {
-<<<<<<< HEAD
-    background-color:map-get($background-color , "menu" );
-=======
     background-color: map-get($background-color , "menu");
->>>>>>> erik
 }
 
 .barra__info {
     display: grid;
-<<<<<<< HEAD
-    justify-items:center;
-=======
     justify-items: center;
->>>>>>> erik
 }
 
 //ICONOS 
@@ -106,40 +89,11 @@
     height: 250px;
 }
 
-<<<<<<< HEAD
-//Responsive
-.barra__info {
-    @include celular{
-        flex-wrap: wrap;
-    }
-   
-}
-.bag-check,.bi-currency-dollar {
-    @include celular{
-        display: none;
-    }
-    
-}
-.pets {
-    @include celular{
-    & img {
-        width: 120px;
-        height: 120px;
-    }
-
-    & img:hover {
-        transform: none;
-    }
-}
-}
-
-=======
 //RESPONSIVE
 .barra__info {
     @include celular {
         flex-wrap: wrap;
     }
->>>>>>> erik
 
 }
 
