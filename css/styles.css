@@ -1,24 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-<<<<<<< HEAD
-.pregunta-perro, .pregunta-gato {
-  position: absolute;
-  left: 60px;
-}
-
-.pregunta-gato {
-  left: 77em;
-  top: 29em;
-}
-
-@media screen and (max-width: 720px) {
-  .pregunta-perro, .pregunta-gato {
-    display: none;
-  }
-}
-
-=======
->>>>>>> erik
 * {
   padding: 0;
   margin: 0;
@@ -245,16 +226,6 @@ button h3 {
   font-weight: 400;
 }
 
-<<<<<<< HEAD
-.barra__info h2 {
-  font-size: 1rem;
-}
-.barra__info p {
-  font-size: 0.7rem;
-}
-
-@media screen and (max-width: 720px) {
-=======
 @media screen and (max-width: 991px) {
   .barra__info h2 {
     font-size: 1rem;
@@ -265,15 +236,11 @@ button h3 {
 }
 
 @media screen and (max-width: 991px) {
->>>>>>> erik
   .navbar a:hover {
     color: white;
   }
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 720px) {
-=======
 @media screen and (max-width: 991px) {
   .p-destacado-title {
     text-align: center;
@@ -295,14 +262,11 @@ button h3 {
 }
 
 @media screen and (max-width: 991px) {
->>>>>>> erik
   button h3 {
     font-size: 1rem;
   }
 }
 
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 991px) {
   .producto-title h2 {
     font-size: 1.6rem;
@@ -315,7 +279,6 @@ button h3 {
   }
 }
 
->>>>>>> erik
 .pie-pagina {
   width: 100%;
   background-color: #6DA0E2;
@@ -570,11 +533,7 @@ button {
   }
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 720px) {
-=======
 @media screen and (max-width: 991px) {
->>>>>>> erik
   .carousel-control-prev-icon, .carousel-control-next-icon {
     display: none;
   }
@@ -810,23 +769,10 @@ textarea {
   margin-bottom: 60px;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 720px) {
-  .accordion {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .tarjetas-bancos {
-    width: 100%;
-  }
-=======
 .tarjetas-bancos {
   display: block;
   margin: auto;
   width: 70%;
->>>>>>> erik
 }
 
 @media screen and (max-width: 991px) {
@@ -879,10 +825,7 @@ textarea {
 
 .carousel {
   width: 80%;
-<<<<<<< HEAD
-=======
   display: block;
->>>>>>> erik
   margin: auto;
 }
 
@@ -955,31 +898,19 @@ textarea {
   height: 250px;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 720px) {
-=======
 @media screen and (max-width: 991px) {
->>>>>>> erik
   .barra__info {
     flex-wrap: wrap;
   }
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 720px) {
-=======
 @media screen and (max-width: 991px) {
->>>>>>> erik
   .bag-check, .bi-currency-dollar {
     display: none;
   }
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 720px) {
-=======
 @media screen and (max-width: 991px) {
->>>>>>> erik
   .pets img {
     width: 120px;
     height: 120px;
@@ -989,8 +920,6 @@ textarea {
   }
 }
 
-<<<<<<< HEAD
-=======
 .categoria__resultado, .categoria--dos__resultado {
   display: inline-block;
   padding: 40px;
@@ -1004,5 +933,4 @@ textarea {
   }
 }
 
->>>>>>> erik
 /*# sourceMappingURL=styles.css.map */
